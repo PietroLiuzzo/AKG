@@ -1,0 +1,28 @@
+[ {
+  "@id" : "https://artresearch.net/resource/midas/vocabulary/material/FE3484B7-804C-3814-87E8-873F1A8F2740",
+  "@type" : [ "http://www.cidoc-crm.org/cidoc-crm/E57_Material", "https://artresearch.net/resource/custom/fc/material" ],
+  "http://www.cidoc-crm.org/cidoc-crm/P2_has_type" : [ {
+    "@id" : "http://vocab.getty.edu/aat/300264091"
+  } ],
+  "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by" : [ {
+    "@id" : "https://artresearch.net/resource/midas/vocabulary/material/1K22AA7W/graph"
+  }, {
+    "@id" : "https://artresearch.net/resource/midas/vocabulary/material/FE3484B7-804C-3814-87E8-873F1A8F2740/graph"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Marmor"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://vocab.getty.edu/aat/300011443"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrowMatch" : [ {
+    "@id" : "https://artresearch.net/resource/midas/vocabulary/material/CC0722B7-33E2-3829-AD9D-E9E93AC97BE5"
+  } ],
+  "https://artresearch.net/custom/has_provider" : [ {
+    "@id" : "https://artresearch.net/resource/midas/source/midas"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/source/Hertziana"
+  }, {
+    "@id" : "https://artresearch.net/resource/khi/source/KHI"
+  } ]
+} ]

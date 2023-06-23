@@ -1,0 +1,18 @@
+[ {
+  "@id" : "https://artresearch.net/resource/midas/vocabulary/type/25700687-6E4A-39C6-8CF2-1BEE1D50C24E",
+  "@type" : [ "http://www.cidoc-crm.org/cidoc-crm/E55_Type", "https://artresearch.net/resource/custom/fc/type" ],
+  "http://www.cidoc-crm.org/cidoc-crm/P2_has_type" : [ {
+    "@id" : "http://vocab.getty.edu/aat/300264092"
+  } ],
+  "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by" : [ {
+    "@id" : "https://artresearch.net/resource/midas/vocabulary/type/25700687-6E4A-39C6-8CF2-1BEE1D50C24E/graph"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Sockel"
+  } ],
+  "https://artresearch.net/custom/has_provider" : [ {
+    "@id" : "https://artresearch.net/resource/hertziana/source/Hertziana"
+  }, {
+    "@id" : "https://artresearch.net/resource/khi/source/KHI"
+  } ]
+} ]

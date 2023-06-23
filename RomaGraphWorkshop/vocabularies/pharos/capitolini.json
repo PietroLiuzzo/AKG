@@ -1,0 +1,410 @@
+[ {
+  "@id" : "https://artresearch.net/resource/hertziana/actor/F4378924-0018-308A-AA00-6D8A4E55C993",
+  "@type" : [ "http://www.cidoc-crm.org/cidoc-crm/E39_Actor", "https://artresearch.net/resource/custom/fc/institution" ],
+  "http://www.cidoc-crm.org/cidoc-crm/P2_has_type" : [ {
+    "@id" : "https://artresearch.net/resource/midas/vocabulary/type/9055B15D-3178-3051-A34F-9CC5F647DFD8"
+  } ],
+  "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by" : [ {
+    "@id" : "https://artresearch.net/resource/hertziana/actor/F4378924-0018-308A-AA00-6D8A4E55C993/graph"
+  } ],
+  "http://www.cidoc-crm.org/cidoc-crm/P74_has_current_or_former_residence" : [ {
+    "@id" : "https://artresearch.net/resource/hertziana/place/0BCBCFED-F2EF-3F96-9425-97B9279FB141"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Musei Capitolini"
+  } ],
+  "https://artresearch.net/custom/has_provider" : [ {
+    "@id" : "https://artresearch.net/resource/hertziana/source/Hertziana"
+  } ],
+  "https://artresearch.net/resource/custom/fr/Institution_keeps_Work" : [ {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08025534"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08025537"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08025538"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08025541"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08050951"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08051390"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054713"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054714"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054715"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054716"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054717"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054718"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054719"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054720"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054721"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054722"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054723"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054724"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054725"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054726"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054727"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054728"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054729"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054730"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054731"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054732"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054733"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054734"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054735"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054736"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054743"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054744"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054745"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054746"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054747"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054748"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054749"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054750"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054751"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054752"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054754"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054755"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054756"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054757"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054758"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054759"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054760"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054761"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054762"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054764"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054765"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054766"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054767"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054768"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054769"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054773"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054774"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054775"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054776"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054777"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054778"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054779"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054780"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054781"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054782"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054783"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054784"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054785"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054786"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054787"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054788"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054789"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054790"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054791"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054792"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054793"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054794"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054795"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054796"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054797"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054798"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054799"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054800"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054801"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054803"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054804"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054805"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054806"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054807"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054808"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054809"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054810"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054811"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054812"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054813"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054814"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054815"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054825"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054826"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054827"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054845"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054846"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054847"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054848"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054849"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054854"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054855"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054856"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054857"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054858"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054859"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054860"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054861"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054862"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054863"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054864"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054865"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054866"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054867"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054868"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054869"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054870"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054871"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054876"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054877"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054878"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054879"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054880"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054881"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054882"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054883"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054884"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08055078"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08055079"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08055080"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08045902"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08046253"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08046718"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08051221"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054771"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054772"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08124337"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08071353"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08025535"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08088997"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08089285"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08017058"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08046719"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08047603"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08047606"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08050386"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08051454"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08150594"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08013544"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08150128"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08150120"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08016737"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08017090"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08025532"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08025533"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08025536"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08025539"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08025540"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08027116"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08044074"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08045668"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08045674"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08045691"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08045707"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08045808"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08045811"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08046254"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08046255"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08046256"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08046715"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08046716"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08046717"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08047601"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08047604"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08047605"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08049345"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08050393"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08050948"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08050949"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08050950"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08050994"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08051190"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054753%2CT%2C001"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054753%2CT%2C002"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054770%2CT%2C001"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08054770%2CT%2C002"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08055071"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08055081"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08055145"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/work/08147941"
+  } ]
+} ]

@@ -1,0 +1,574 @@
+[ {
+  "@id" : "http://vocab.getty.edu/aat/300133025",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept", "http://www.cidoc-crm.org/cidoc-crm/E55_Type", "http://vocab.getty.edu/ontology#Concept", "http://vocab.getty.edu/ontology#Subject" ],
+  "http://creativecommons.org/ns#license" : [ {
+    "@id" : "http://opendatacommons.org/licenses/by/1.0/"
+  } ],
+  "http://purl.org/dc/elements/1.1/identifier" : [ {
+    "@value" : "300133025"
+  } ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@id" : "http://vocab.getty.edu/aat/contrib/10000000"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/contrib/10000088"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/contrib/10000131"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/contrib/10000159"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/contrib/10000205"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/contrib/10000250"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/contrib/10000316"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/contrib/10000299"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "1989-03-10T00:00:00.000Z"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "http://opendatacommons.org/licenses/by/1.0/"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-11-18T13:01:58.000Z"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-11-18T13:02:11.000Z"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2011-03-08T08:30:29.000Z"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2011-03-08T08:36:31.000Z"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2012-04-13T12:10:37.000Z"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2013-03-29T09:34:13.000Z"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2013-08-26T12:43:45.000Z"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2003-08-05T16:58:27.000Z"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2001-07-26T22:01:18.000Z"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2001-07-26T22:15:11.000Z"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "1992-12-30T00:00:00.000Z"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "1991-03-27T00:00:00.000Z"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "1994-11-29T00:00:00.000Z"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2010-01-07T12:23:28.000Z"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2010-01-07T12:24:22.000Z"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2005-05-24T10:35:42.000Z"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2010-04-23T03:16:11.000Z"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2010-04-23T03:16:12.000Z"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2022-01-07T11:48:23.000Z"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2011-01-07T18:52:49.000Z"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2011-01-07T18:52:50.000Z"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2013-08-09T10:22:36.000Z"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2013-08-09T10:22:37.000Z"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2013-08-09T10:29:24.000Z"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2007-06-27T15:06:26.000Z"
+  } ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@id" : "http://vocab.getty.edu/aat/source/2000109633"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/source/2000099099"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/source/2000106165"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/source/2000106166"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/source/2000106167"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/source/2000051089-subject-300133025"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/source/2000106160-subject-300133025"
+  } ],
+  "http://purl.org/iso25964/skos-thes#broaderGeneric" : [ {
+    "@id" : "http://vocab.getty.edu/aat/300185712"
+  } ],
+  "http://rdfs.org/ns/void#inDataset" : [ {
+    "@id" : "http://vocab.getty.edu/dataset/aat"
+  } ],
+  "http://vocab.getty.edu/ontology#aat2100_distinguished_from" : [ {
+    "@id" : "http://vocab.getty.edu/aat/300054138"
+  } ],
+  "http://vocab.getty.edu/ontology#aat2110_meaning-usage_overlaps_with" : [ {
+    "@id" : "http://vocab.getty.edu/aat/300133005"
+  } ],
+  "http://vocab.getty.edu/ontology#broader" : [ {
+    "@id" : "http://vocab.getty.edu/aat/300234076"
+  } ],
+  "http://vocab.getty.edu/ontology#broaderExtended" : [ {
+    "@id" : "http://vocab.getty.edu/aat/300264092"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/300185711"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/300185712"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/300234076"
+  } ],
+  "http://vocab.getty.edu/ontology#broaderGeneric" : [ {
+    "@id" : "http://vocab.getty.edu/aat/300234076"
+  } ],
+  "http://vocab.getty.edu/ontology#broaderGenericExtended" : [ {
+    "@id" : "http://vocab.getty.edu/aat/300264092"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/300185711"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/300185712"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/300234076"
+  } ],
+  "http://vocab.getty.edu/ontology#broaderNonConcept" : [ {
+    "@id" : "http://vocab.getty.edu/aat/300234076"
+  } ],
+  "http://vocab.getty.edu/ontology#broaderPreferred" : [ {
+    "@id" : "http://vocab.getty.edu/aat/300234076"
+  } ],
+  "http://vocab.getty.edu/ontology#broaderPreferredExtended" : [ {
+    "@id" : "http://vocab.getty.edu/aat/300264092"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/300185711"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/300185712"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/300234076"
+  } ],
+  "http://vocab.getty.edu/ontology#displayOrder" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#positiveInteger",
+    "@value" : "17"
+  } ],
+  "http://vocab.getty.edu/ontology#parentString" : [ {
+    "@value" : "<object genres by cultural or intellectual evaluation>, object genres (object classifications), Object Genres (hierarchy name), Objects Facet"
+  } ],
+  "http://vocab.getty.edu/ontology#parentStringAbbrev" : [ {
+    "@value" : "<object genres by cultural or intellectual evaluation>, object genres (object classifications), ... Objects Facet"
+  } ],
+  "http://vocab.getty.edu/ontology#prefLabelGVP" : [ {
+    "@id" : "http://vocab.getty.edu/aat/term/1000133025-en"
+  } ],
+  "http://www.cidoc-crm.org/cidoc-crm/P2_has_type" : [ {
+    "@id" : "https://artresearch.net/resource/vocab/maintype"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "works of art"
+  }, {
+    "@language" : "nl",
+    "@value" : "kunstwerken"
+  }, {
+    "@language" : "en",
+    "@value" : "work of art"
+  }, {
+    "@language" : "en",
+    "@value" : "works of art"
+  }, {
+    "@language" : "es",
+    "@value" : "obra de arte"
+  }, {
+    "@language" : "en",
+    "@value" : "art works (art)"
+  }, {
+    "@language" : "en",
+    "@value" : "art, works of"
+  }, {
+    "@language" : "en",
+    "@value" : "artworks (art)"
+  }, {
+    "@language" : "en",
+    "@value" : "works (art)"
+  }, {
+    "@language" : "en",
+    "@value" : "artwork"
+  }, {
+    "@language" : "es",
+    "@value" : "obras de arte"
+  }, {
+    "@language" : "fr",
+    "@value" : "œuvre d'art"
+  }, {
+    "@language" : "nl",
+    "@value" : "kunstwerk"
+  }, {
+    "@language" : "zh-hant",
+    "@value" : "藝術品"
+  }, {
+    "@language" : "zh-latn-pinyin-x-hanyu",
+    "@value" : "yì shù pǐn"
+  }, {
+    "@language" : "zh-latn-pinyin-x-notone",
+    "@value" : "yi shu pin"
+  }, {
+    "@language" : "zh-latn-wadegile",
+    "@value" : "i shu p'in"
+  }, {
+    "@language" : "pt",
+    "@value" : "obra de arte"
+  }, {
+    "@language" : "pt",
+    "@value" : "obras de arte"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300133025"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "work of art"
+  }, {
+    "@language" : "es",
+    "@value" : "obra de arte"
+  }, {
+    "@language" : "en",
+    "@value" : "art works (art)"
+  }, {
+    "@language" : "en",
+    "@value" : "art, works of"
+  }, {
+    "@language" : "en",
+    "@value" : "artworks (art)"
+  }, {
+    "@language" : "en",
+    "@value" : "works (art)"
+  }, {
+    "@language" : "en",
+    "@value" : "artwork"
+  }, {
+    "@language" : "nl",
+    "@value" : "kunstwerk"
+  }, {
+    "@language" : "pt",
+    "@value" : "obra de arte"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://vocab.getty.edu/aat/300185712"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broaderTransitive" : [ {
+    "@id" : "http://vocab.getty.edu/aat/300185712"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#changeNote" : [ {
+    "@id" : "http://vocab.getty.edu/aat/rev/5000034078"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5000034079"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5000034080"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5000034081"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5001095797"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5001095798"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5001095799"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5001095800"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5001095801"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5001095802"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5001174204"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5001174205"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5001499760"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5001544872"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5001668974"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5002057116"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5002057117"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5002057118"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5002057119"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5002379853"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5002379854"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5002807965"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5002807966"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5002986013"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5002986015"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5003238149"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5003359691"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5003359692"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5003359693"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5003359694"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5003501969"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5003501975"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5003501984"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5003501985"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5003506049"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5004858871"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5004858872"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5004858873"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5004858874"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5004858896"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5002379865"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5002807979"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5003359713"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5004858895"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5005355733"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5005355734"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5005355755"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://vocab.getty.edu/aat/"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#note" : [ {
+    "@id" : "http://vocab.getty.edu/aat/rev/5000034078"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5000034079"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5000034080"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5000034081"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5001095797"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5001095798"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5001095799"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5001095800"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5001095801"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5001095802"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5001174204"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5001174205"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5001499760"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5001544872"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5001668974"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5002057116"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5002057117"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5002057118"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5002057119"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5002379853"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5002379854"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5002807965"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5002807966"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5002986013"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5002986015"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5003238149"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5003359691"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5003359692"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5003359693"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5003359694"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5003501969"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5003501975"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5003501984"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5003501985"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5003506049"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5004858871"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5004858872"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5004858873"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5004858874"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5004858896"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/scopeNote/110267"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/scopeNote/42920"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/scopeNote/68869"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/scopeNote/93231"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5002379865"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5002807979"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5003359713"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5004858895"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5005355733"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5005355734"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/rev/5005355755"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/scopeNote/166121"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "zh-latn-pinyin-x-hanyu",
+    "@value" : "yì shù pǐn"
+  }, {
+    "@language" : "zh-latn-pinyin-x-notone",
+    "@value" : "yi shu pin"
+  }, {
+    "@language" : "zh-latn-wadegile",
+    "@value" : "i shu p'in"
+  }, {
+    "@language" : "pt",
+    "@value" : "obras de arte"
+  }, {
+    "@language" : "nl",
+    "@value" : "kunstwerken"
+  }, {
+    "@language" : "en",
+    "@value" : "works of art"
+  }, {
+    "@language" : "es",
+    "@value" : "obras de arte"
+  }, {
+    "@language" : "fr",
+    "@value" : "œuvre d'art"
+  }, {
+    "@language" : "zh-hant",
+    "@value" : "藝術品"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#related" : [ {
+    "@id" : "http://vocab.getty.edu/aat/300054138"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/300133005"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@id" : "http://vocab.getty.edu/aat/scopeNote/110267"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/scopeNote/42920"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/scopeNote/68869"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/scopeNote/93231"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/scopeNote/166121"
+  } ],
+  "http://www.w3.org/2008/05/skos-xl#altLabel" : [ {
+    "@id" : "http://vocab.getty.edu/aat/term/1000133027-en"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/term/1000133030-en"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/term/1000133031-en"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/term/1000139557-en"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/term/1000286029-en"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/term/1000439020-es"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/term/1000492272-nl"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/term/1000780154-en"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/term/1000439020-pt"
+  } ],
+  "http://www.w3.org/2008/05/skos-xl#prefLabel" : [ {
+    "@id" : "http://vocab.getty.edu/aat/term/1000133025-en"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/term/1000439019-es"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/term/1000492271-nl"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/term/1000556863-zh-Hant"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/term/1000556864-zh-Latn-pinyin-x-notone"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/term/1000556865-zh-Latn-pinyin-x-hanyu"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/term/1000556866-zh-Latn-wadegile"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/term/1000780155-fr"
+  }, {
+    "@id" : "http://vocab.getty.edu/aat/term/1000439019-pt"
+  } ],
+  "http://www.w3.org/ns/prov#wasGeneratedBy" : [ {
+    "@id" : "http://vocab.getty.edu/aat/rev/5000034078"
+  } ]
+} ]

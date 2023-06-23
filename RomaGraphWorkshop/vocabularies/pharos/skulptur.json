@@ -1,0 +1,36 @@
+[ {
+  "@id" : "https://artresearch.net/resource/midas/vocabulary/type/6E51F642-3948-3A40-8B0C-0030191CA0DE",
+  "@type" : [ "http://www.cidoc-crm.org/cidoc-crm/E55_Type" ],
+  "http://www.cidoc-crm.org/cidoc-crm/P2_has_type" : [ {
+    "@id" : "http://vocab.getty.edu/aat/300264092"
+  } ],
+  "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by" : [ {
+    "@id" : "https://artresearch.net/resource/midas/vocabulary/type/6E51F642-3948-3A40-8B0C-0030191CA0DE/graph"
+  }, {
+    "@id" : "https://artresearch.net/resource/midas/vocabulary/type/F4700F17-C5D0-3D48-8631-131150A3355C/graph"
+  }, {
+    "@id" : "https://artresearch.net/resource/midas/vocabulary/type/TS1XD6E4/graph"
+  }, {
+    "@id" : "https://artresearch.net/resource/midas/vocabulary/type/C6C3E57C-3908-388F-992C-636B4C67FE6D/graph"
+  }, {
+    "@id" : "https://artresearch.net/resource/midas/vocabulary/type/1C394EE5-33A2-3293-A134-55AF14FF7FEA/graph"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Skulptur"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://vocab.getty.edu/aat/300047090"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+    "@id" : "http://d-nb.info/gnd/4046277-8"
+  } ],
+  "https://artresearch.net/custom/has_provider" : [ {
+    "@id" : "https://artresearch.net/resource/marburg/source/Marburg"
+  }, {
+    "@id" : "https://artresearch.net/resource/midas/source/midas"
+  }, {
+    "@id" : "https://artresearch.net/resource/hertziana/source/Hertziana"
+  }, {
+    "@id" : "https://artresearch.net/resource/khi/source/KHI"
+  } ]
+} ]
