@@ -103,9 +103,9 @@
 			<div class=" w3-half w3-padding-left">
 
 							<p>The role of the interpreter of historical sources and the knowledge related to it,
-								which allows to connect different materials, are largely missing in web resoruces.
+								which allows to connect different materials, are largely missing in web resources.</p>
 
-								I will try to show something which is not new, that the two worlds of
+								<p>	I will try to show something which is not new, that the two worlds of
 								knowledge, that of printed materials and the one building up in the
 								web are similar and complementary: while both suffer the
 								same issues (accessibility, quality control, style) they
@@ -116,15 +116,13 @@
 								<p>Once more the researcher (scholarly or not)
 								is the missing link, not the software or the tools.
 								Collaborative tools exist and can be
-							used. For a new understanding we badly need a new generation of well trained researchers of many kinds open to the technical languages as well as to the aesthetics,
+							used.</p>
+
+							<p>For a new understanding we badly need a new generation of well trained researchers
+								of many kinds open to the technical languages as well as to the aesthetics,
 							who are supported and
 							recognized for their contribution to collaborative
 							resources like the web in any of its parts.</p>
-
-
-							<p>With the information we have we could direct links and enhance
-								discoverability of many other available resources, which are available online
-								for the same object. A meaningful link is much more valuable than a large, closed, database of informations, however rich.</p>
 
 							<p>So, let me try to think like Google's Algorithm for a moment and follow
 								links to make an example of what kind of networks and connections can be extracted to read an object from the city of Rome.</p>
@@ -175,15 +173,17 @@
 						><a resource="#edr" property="sch:url" href="http://www.edr-edr.it/" data-type="akg"
 							>Epigraphic Datanbase Rome</a></span><span resource="#edr" property="sch:isPartOf" href="#epidatabase" data-type="akg"></span>, the largest
 					existing academic corpus of inscriptions from Rome online, including more than
-					105 thousands digital editions of epigraphic texts. and follow links from there
+					105 thousands digital editions of epigraphic texts. I will follow links from there
 					to explore how much information can be actually connected to get the best
 					possible knowledge of a single object.</p>
 							<p resource="#AKG" property="sch:abstract" data-type="functional">My argument is that there is more real and direct value
 					for the exploration of the network of informations about the city of Rome in a
 					argumentative knowledge graph than there can be from the extraction of value
-					from quantitavely collected data. This is because of the fragmentary nature of
+					from quantitavely collected data, which are yet indispensable items to refer to in any argumentation.</p>
+
+					<p>This is because of the fragmentary nature of
 					the data and because the actual available data is scanty and clashes in front of
-					the bibliographic barrier, aka the innaccessibility of quality full texts of
+					the bibliographic barrier, that is, the innaccessibility of quality full texts of
 					publications quoted as unstructured data.</p>
 				<p>This presentation is in itself an example of an argumentative knowledge graph (AKG) as
 					it embedds RDFa in the HTML source. A simple tool like <a resource="#AKG" property="sch:seeAlso"  data-type="functional"
@@ -191,8 +191,9 @@
 					data as a graph and it can be imported as is into a triplestore. Here I parse the HTML with
 					<a  data-type="functional" resource="#AKG" property="sch:seeAlso" href="https://visjs.org/">vis.js</a>
 				and produce the Network with the same library.</p>
-				<p>Any scientific contribution is per sé a knowledge graph. This one simply attempts
-					to make that known to the web by using one of its standard technologies, <a  data-type="functional" resource="#AKG" property="sch:source"
+				<p>Any scientific contribution is per sé a knowledge graph, and can be enriched with precise annotations in many other ways.
+					My example here simply attempts
+					to provide an example and make statements known to the web by using one of its standard languages, <a  data-type="functional" resource="#AKG" property="sch:source"
 						href="https://www.w3.org/TR/rdfa-core/">RDFa</a>.</p>
 						</div>
 					</div>
@@ -233,45 +234,46 @@
 					<h2>Fototeca</h2>
 					<div class="w3-container w3-padding-64">
 
-						<p>Our starting point is <span lang="de" resource="#obj08054714" property="sch:name" data-type="source"
+						<p>Our starting point is an object catalogued in the Fotothek: <q><span lang="de" resource="#obj08054714" property="sch:name" data-type="source"
 							><a resource="#obj08054714" property="sch:url" href="https://foto.biblhertz.it/document/obj/08054714" data-type="source"
 								>Statuensockel mit Inschrift</a></span> des <a
 									resource="#cestius" property="sch:url" data-type="source"
 									href="https://www.wikidata.org/entity/Q10447214"><span resource="#cestius" typeof="foaf:Person"
-										data-type="source">Caius Cestius</span></a> we learn about a marmor
+										data-type="source">Caius Cestius</span></a></q>.
+										Landing on this page we learn about a marmor
 							statue base with an inscription now at the Musei Capitolini, found
 							<span property="dc:relation" resource="#obj08015434" about="#capitolini" data-type="akg">
 								<span resource="#obj08015434" typeof="sch:DigitalDocument" data-type="akg">
 									<a resource="#obj08015434" property="sch:url" href="https://foto.biblhertz.it/document/obj/08015434" data-type="source"
 									><q>vor der
-										Pyramide</q></a> the <span resource="#obj08015434" property="sch:name" data-type="source">Pyramid of Caius
+										Pyramide</q></a>, which is the so-called <span resource="#obj08015434" property="sch:name" data-type="source">Pyramid of Caius
 							Cestius</span>.</span>
 
 								<span resource="#obj08015434" property="crm:P129_is_about" about="#Statuensockel" data-type="akg"/>
-								<span resource="#cestiusPyramid" property="P51_has_former_or_current_owner" about="#cestius" data-type="akg"/>
+								<span resource="#cestiusPyramid" property="crm:P51_has_former_or_current_owner" about="#cestius" data-type="akg"/>
 								<span resource="#Statuensockel" property="lawd:foundAt" about="#cestiusPyramid" data-type="akg"/>
 								<span resource="#cestiusPyramid" property="sch:url" about="https://www.wikidata.org/entity/Q725404" data-type="url"/>
 
 						The inscription dates <span resource="#cestiusPyramid" property="dc:created" data-type="source">before 12 BCE</span>
 						and measures are given for the
 						inscription field.</span>
-							A link is given to the Musei Capitolini <a resource="#obj08054714" property="dc:relation" data-type="akg"
-						href="http://capitolini.net/object.xql?urn=urn:collectio:0001:scu:02386"
-							>http://capitolini.net/object.xql?urn=urn:collectio:0001:scu:02386</a>.
+							A link is given to a page hosted by the <a resource="#obj08054714" property="dc:relation" data-type="akg"
+							href="http://capitolini.net/object.xql?urn=urn:collectio:0001:scu:02386"
+								>Musei Capitolini</a>.
 							<span resource="#obj08054714" property="sch:hasPart" about="#bhpd71012" data-type="source"><a
 								href="https://foto.biblhertz.it/media/obj/08054714/bhpd71012z"
 								>The
 							photo of the front side with the inscription </a></span> was
 							a <a resource="#bhpd71012"  property="sch:seeAlso" href="https://www.biblhertz.it/it/barbara-malter" data-type="akg">donation</a>
 							of <span resource="#bhpd71012" property="dc:creator" about="#malter" data-type="akg"><span resource="#malter" typeof="foaf:Person" data-type="akg">Malter Barbara</span></span>
-							who took the photo <span property="dc:created" about="#bhpd71012" >1982/1983</span>. To get to know who curated the
+							who took the photo about <span property="dc:created" about="#bhpd71012" >1982/1983</span>. To get to know who curated the
 					information we have to make our way to the IIIF Viewer, and from there to the
 					OAI-PMH XML, where we get the email of <span resource="#deckers" typeof="foaf:Person" data-type="akg">Regina
 						Deckers</span><span resource="#obj08015434" property="sch:creator" about="#deckers" data-type="source"></span> as latest editor (Admin
 					and Pietro Liuzzo can be disregarded as they are technical manager of the
 					information...)</p>
 
-				<p  >Actually, there are a few more links, visible to the machines
+				<p  >Actually, there are a few more links, visible to the machines only as such,
 					for indexing related to the object and photograph: <ul resource="#obj08054714" property="crm:P129_is_about" about="#Statuensockel" data-type="akg"
 						xmlns="http://www.w3.org/1999/xhtml">
 						<li resource="#Statuensockel" property="sch:keywords" about="https://gn.biblhertz.it/skos/the49601600" data-type="akg">
@@ -296,8 +298,9 @@
 						<li resource="#obj08054714" property="sch:keywords" about="http://vocab.getty.edu/aat/300011443" data-type="source"><a
 							href="http://vocab.getty.edu/aat/300011443"
 							><span resource="http://vocab.getty.edu/aat/300011443" property="sch:name" data-type="source">Marmor</span> (AAT)</a> </li>
-					</ul> these three values associated to 3 different controlled vocabulary make for a good
-					deal of alignment of the object. They are based on the shared <span resource="#midasThesaurus" property="sch:creator" about="#marburg" data-type="akg" >MIDAS Thesaurus</span> user,
+					</ul> these three values associated to three different controlled vocabulary, and aligned among them, make for a good
+					deal of alignment of the object.</p>
+					<p>They are based on the shared <span resource="#midasThesaurus" property="sch:creator" about="#marburg" data-type="akg" >MIDAS Thesaurus</span> user,
 					maintained by <span resource="#marburg" typeof="sch:ResearchOrganization" data-type="akg">Deutsches Dokumentationszentrum für Kunstgeschichte -
 					Bildarchiv Foto Marburg</span> and used by the consortium of Photographic collections.
 					The injection into structured data for the website of the Catalog of the Fotothek
@@ -308,7 +311,8 @@
 						skos:ConceptScheme" data-type="akg">SKOS based implementation</span>.
 					Anyone, search engines included, can follow those links, especially when they will be part
 					of rich results of common searches in the web. They could be used to find many more values. Perhaps too many.
-					We are however not going to follow those links for now. We are also not going to look at web resources available online which replicate the same or part of the same information
+					We are however not going to follow those links for now. We are also not going to look at
+					web resources available online which replicate the same or part of the same information
 				like
 
 				Bildindex and Europeana for the Fotothek, but we will look at some aspects of Pharos later.
@@ -338,7 +342,7 @@
 
 					<p>There is no link to a record about this statue, which probably is simply not among the objects fotographed in the collection.</p>
 					<p>We do not know which one of the two inscriptions we have and how do they differ.</p>
-					<p>We are told that these two statue bases were in front of the Pyramid, but we shall see later that this can also be questioned.</p>
+					<p>We are told that these two statue bases were in front of the Pyramid.</p>
 					<p>Bibliography points to
 					<ul>
 						<li resource="#CIL_6_1375" typeof="bibo:BookSection" data-type="akg"><a
@@ -352,7 +356,7 @@
 					are however not linked as resources. </p>
 
 						<p> The <span resource="#bhpd36472" property="crm:P62_depicts" about="#obj08076073" data-type="source"><i
-							resource="#obj08076073" typeof="#Druckgraphic" data-type="akg">Druckgraphic</i> attesting this information may be Foto bhpd36472</span></p>
+							resource="#obj08076073" typeof="#Druckgraphic" data-type="akg">Druckgraphic</i> attesting this information may be exemplified by foto bhpd36472.</span></p>
 					</div>
 					<div class="w3-half">
 						<div class="w3-display-container" resource="#bhpd36472" typeof="sch:ImageObject" id="imgbhpd36472" data-type="source">
@@ -381,15 +385,16 @@
 				<div class="w3-container w3-margin w3-padding">
 					<h2>Musei Capitolini</h2>
 					<div class="w3-container w3-padding-64">
-						<p> <span resource="#obj08054714" typeof="sch:DigitalDocument" data-type="akg" >OBJ 08054714 in the Fototeca which records an "Ausschnitt" from a foto of
-							Capitolini <a resource="#obj08054714" property="see:also" href="http://capitolini.net/object.xql?urn=urn:collectio:0001:scu:02386" data-type="source"
-								about="#SCU02386">SCU 02386</a> by <span resource="#d7290" property="dc:creator" about="#malter" data-type="source">Barbara Malter</span>.
-							<span about="#bhpd71012" property="dc:relation" resource="#d7290" data-type="akg">The foto (bhpd71012) is probably related to
+						<p> <span resource="#obj08054714" typeof="sch:DigitalDocument" data-type="akg" >OBJ 08054714 in the Fototeca records an <q>Ausschnitt</q>
+							from a foto of the Sculpture object preserved at the Musei
+							Capitolini with identifier <a resource="#obj08054714" property="see:also" href="http://capitolini.net/object.xql?urn=urn:collectio:0001:scu:02386" data-type="source"
+								about="#SCU02386">SCU 02386</a>, also a photo by <span resource="#d7290" property="dc:creator" about="#malter" data-type="source">Barbara Malter</span>.
+							<span about="#bhpd71012" property="dc:relation" resource="#d7290" data-type="akg">The photo (bhpd71012) is probably related to
 					negative d/7290</span> of the Capitolini, listed on that page.</span>
 					The page is unfortunately not maintained any more and its accessibility is not very reliable, despite the precious information contained and published there.
 				</p>
 						<p resource="#SCU02386" typeof="sch:DigitalDocument" id="objSCU02386" data-type="akg">
-							Now let us have a look at the capitolini link we found, <a resource="#SCU02386" property="sch:url"
+							Now let us have a look at the link we found towards <a resource="#SCU02386" property="sch:url"
 								href="http://capitolini.net/object.xql?urn=urn:collectio:0001:scu:02386" data-type="source"
 						>SCU 02386</a> .
 							<span resource="#SCU02386" property="crm:P129_is_about" about="#Statuensockel" data-type="akg"/>
