@@ -15,8 +15,8 @@ parserdfa("[resource][property][src]")
 parserdfa("[resource][property][content]")
 parserdfa("[resource][typeof]")
 
-console.log(updateNodesArray)
-console.log(updateEdgesArray)
+// console.log(updateNodesArray)
+// console.log(updateEdgesArray)
 
 nodes.update(updateNodesArray)
 

@@ -27,22 +27,22 @@ if (updateNodesArray4.some(e => e.id === nodeid)) {}
         };
 
 function parserdfa4(sel) {
-    
+
     var rdfa = document.querySelectorAll(sel);
-    
-    console.log(sel)
-    console.log(rdfa)
-    console.log(rdfa.length)
-    
+
+    // console.log(sel)
+    // console.log(rdfa)
+    // console.log(rdfa.length)
+
     for (var i = 0; i < rdfa.length; i++) {
         var g = ''
         var l = ''
-        
+
         if (rdfa[i].innerText && rdfa[i].getAttribute('about') == null && rdfa[i].getAttribute('href') == null) {
-            
+
             l += rdfa[i].innerText.substring(0,30) + '...'
         } else l += rdfa[i].getAttribute('resource')
-        
+
         if (rdfa[i].getAttribute('resource').includes('#obj')) {
          g += 'fotothek'
 } else if (rdfa[i].getAttribute('resource').includes('#bh')) {
@@ -73,23 +73,23 @@ function parserdfa4(sel) {
     g += 'gordon'
 } else { g += 'other'}
 
-        
-       
+
+
         if(rdfa[i].getAttribute('resource')) {
          var resource = rdfa[i].getAttribute('resource')
         makenode4(resource, l, g)
         }
-       
+
         if(rdfa[i].getAttribute('typeof')) {
         var about = rdfa[i].getAttribute('typeof')
-        
+
         makenode4(about, about, g)
         }
-        
+
     };
-    
-    
-    
+
+
+
     for (var i = 0; i < rdfa.length; i++) {
         if (rdfa[i].getAttribute('about')) {
             updateEdgesArray4.push({
@@ -98,7 +98,7 @@ function parserdfa4(sel) {
                 to: rdfa[i].getAttribute('about')
             });
         }
-        
+
         if (rdfa[i].getAttribute('typeof')) {
             updateEdgesArray4.push({
                 from: rdfa[i].getAttribute('resource'),
@@ -113,8 +113,8 @@ function parserdfa4(sel) {
 parserdfa4("[resource][property][about][data-type='source']")
 parserdfa4("[resource][typeof][data-type='source']")
 
-console.log(updateNodesArray4)
-console.log(updateEdgesArray4)
+// console.log(updateNodesArray4)
+// console.log(updateEdgesArray4)
 
 nodes4.update(updateNodesArray4)
 

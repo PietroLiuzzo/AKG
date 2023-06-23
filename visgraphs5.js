@@ -27,22 +27,22 @@ if (updateNodesArray5.some(e => e.id === nodeid)) {}
         };
 
 function parserdfa5(sel) {
-    
+
     var rdfa = document.querySelectorAll(sel);
-    
-    console.log(sel)
-    console.log(rdfa)
-    console.log(rdfa.length)
-    
+
+   // console.log(sel)
+   // console.log(rdfa)
+   // console.log(rdfa.length)
+
     for (var i = 0; i < rdfa.length; i++) {
         var g = ''
         var l = ''
-        
+
         if (rdfa[i].innerText && rdfa[i].getAttribute('about') == null && rdfa[i].getAttribute('href') == null) {
-            
+
             l += rdfa[i].innerText.substring(0,30) + '...'
         } else l += rdfa[i].getAttribute('resource')
-        
+
         if (rdfa[i].getAttribute('resource').includes('#obj')) {
          g += 'fotothek'
 } else if (rdfa[i].getAttribute('resource').includes('#bh')) {
@@ -73,23 +73,23 @@ function parserdfa5(sel) {
     g += 'gordon'
 } else { g += 'other'}
 
-        
-       
+
+
         if(rdfa[i].getAttribute('resource')) {
          var resource = rdfa[i].getAttribute('resource')
         makenode5(resource, l, g)
         }
-       
+
         if(rdfa[i].getAttribute('typeof')) {
         var about = rdfa[i].getAttribute('typeof')
-        
+
         makenode5(about, about, g)
         }
-        
+
     };
-    
-    
-    
+
+
+
     for (var i = 0; i < rdfa.length; i++) {
         if (rdfa[i].getAttribute('about')) {
             updateEdgesArray5.push({
@@ -98,7 +98,7 @@ function parserdfa5(sel) {
                 to: rdfa[i].getAttribute('about')
             });
         }
-        
+
         if (rdfa[i].getAttribute('typeof')) {
             updateEdgesArray5.push({
                 from: rdfa[i].getAttribute('resource'),
@@ -112,8 +112,8 @@ function parserdfa5(sel) {
 
 parserdfa5("[resource][property][about][data-type='source']")
 
-console.log(updateNodesArray5)
-console.log(updateEdgesArray5)
+// console.log(updateNodesArray5)
+// console.log(updateEdgesArray5)
 
 nodes5.update(updateNodesArray5)
 

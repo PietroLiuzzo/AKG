@@ -27,22 +27,22 @@ if (updateNodesArray3.some(e => e.id === nodeid)) {}
         };
 
 function parserdfa3(sel) {
-    
+
     var rdfa = document.querySelectorAll(sel);
-    
-    console.log(sel)
-    console.log(rdfa)
-    console.log(rdfa.length)
-    
+
+   // console.log(sel)
+   // console.log(rdfa)
+   // console.log(rdfa.length)
+
     for (var i = 0; i < rdfa.length; i++) {
         var g = ''
         var l = ''
-        
+
         if (rdfa[i].innerText && rdfa[i].getAttribute('about') == null && rdfa[i].getAttribute('href') == null) {
-            
+
             l += rdfa[i].innerText.substring(0,30) + '...'
         } else l += rdfa[i].getAttribute('resource')
-        
+
         if (rdfa[i].getAttribute('resource').includes('#obj')) {
          g += 'fotothek'
 } else if (rdfa[i].getAttribute('resource').includes('#bh')) {
@@ -73,33 +73,33 @@ function parserdfa3(sel) {
     g += 'gordon'
 } else { g += 'other'}
 
-        
-       
+
+
         if(rdfa[i].getAttribute('resource')) {
          var resource = rdfa[i].getAttribute('resource')
         makenode3(resource, l, g)
         }
-       
+
         if(rdfa[i].getAttribute('href')) {
         var about = rdfa[i].getAttribute('href')
-        
+
         makenode3(about, about, g)
         }
         if(rdfa[i].getAttribute('src')) {
         var about = rdfa[i].getAttribute('src')
-        
+
         makenode3(about, about, g)
         }
         if(rdfa[i].getAttribute('typeof')) {
         var about = rdfa[i].getAttribute('typeof')
-        
+
         makenode3(about, about, g)
         }
-        
+
     };
-    
-    
-    
+
+
+
     for (var i = 0; i < rdfa.length; i++) {
         if (rdfa[i].getAttribute('about')) {
             updateEdgesArray3.push({
@@ -115,7 +115,7 @@ function parserdfa3(sel) {
                 to: rdfa[i].getAttribute('href')
             });
         }
-        
+
         if (rdfa[i].getAttribute('src')) {
             updateEdgesArray3.push({
                 from: rdfa[i].getAttribute('resource'),
@@ -140,8 +140,8 @@ parserdfa3("[resource][property][src][data-type='source']")
 parserdfa3("[resource][property][content][data-type='source']")
 parserdfa3("[resource][typeof][data-type='source']")
 
-console.log(updateNodesArray3)
-console.log(updateEdgesArray3)
+// console.log(updateNodesArray3)
+// console.log(updateEdgesArray3)
 
 nodes3.update(updateNodesArray3)
 

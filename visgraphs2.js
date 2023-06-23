@@ -20,47 +20,47 @@ if (updateNodesArray2.some(e => e.id === nodeid)) {}
         };
 
 function parserdfa2(sel) {
-    
+
     var rdfa = document.querySelectorAll(sel);
-    
-    console.log(sel)
-    console.log(rdfa)
-    console.log(rdfa.length)
-    
+
+   // console.log(sel)
+   // console.log(rdfa)
+   // console.log(rdfa.length)
+
     for (var i = 0; i < rdfa.length; i++) {
         var l = ''
-        
+
         if (rdfa[i].innerText && rdfa[i].getAttribute('about') == null && rdfa[i].getAttribute('href') == null) {
-            
+
             l += rdfa[i].innerText.substring(0,30) + '...'
         } else l += rdfa[i].getAttribute('resource')
-        
-       
+
+
         if(rdfa[i].getAttribute('resource')) {
          var resource = rdfa[i].getAttribute('resource')
         makenode2(resource, l)
         }
-       
+
         if(rdfa[i].getAttribute('href')) {
         var about = rdfa[i].getAttribute('href')
-        
+
         makenode2(about, about)
         }
         if(rdfa[i].getAttribute('src')) {
         var about = rdfa[i].getAttribute('src')
-        
+
         makenode2(about, about)
         }
         if(rdfa[i].getAttribute('typeof')) {
         var about = rdfa[i].getAttribute('typeof')
-        
+
         makenode2(about, about)
         }
-        
+
     };
-    
-    
-    
+
+
+
     for (var i = 0; i < rdfa.length; i++) {
         if (rdfa[i].getAttribute('about')) {
             updateEdgesArray2.push({
@@ -76,7 +76,7 @@ function parserdfa2(sel) {
                 to: rdfa[i].getAttribute('href')
             });
         }
-        
+
         if (rdfa[i].getAttribute('src')) {
             updateEdgesArray2.push({
                 from: rdfa[i].getAttribute('resource'),
@@ -101,8 +101,8 @@ parserdfa2("[resource][property][src][data-type='akg']")
 parserdfa2("[resource][property][content][data-type='akg']")
 parserdfa2("[resource][typeof][data-type='akg']")
 
-console.log(updateNodesArray2)
-console.log(updateEdgesArray2)
+// console.log(updateNodesArray2)
+// console.log(updateEdgesArray2)
 
 nodes2.update(updateNodesArray2)
 
