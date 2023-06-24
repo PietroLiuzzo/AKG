@@ -143,11 +143,11 @@
 									href="https://foto.biblhertz.it/media/obj/08054714/bhpd71012z">Fotothek</a>
 
 								<img resource="#bhpd71012"  property="sch:contentUrl"
-									src="https://fotothek.biblhertz.it/bh/2048px/bhpd71012z.jpg" data-type="source"
+									src="https://fotothek.biblhertz.it/bh/320px/bhpd71012z.jpg" data-type="source"
 									style="width: 100%;"/>
 								<span lang="de" resource="#bhpd71012" property="sch:isPartOf" about="#fotothek" data-type="source" class="w3-display-topright w3-small w3-text-white caption"
 									>Foto - <span  resource="#bhpd71012" property="crm:P62_depicts" about="#obj08054714" data-type="source">bhpd71012z: <span
-										resource="#Statuensockel" property="epont:carriesText" about="#Inschrift" data-type="akg">
+										resource="#OrigStatuensockel" property="epont:carriesText" about="#Inschrift" data-type="akg">
 										<span  resource="#Statuensockel" typeof="crm:E22_Human-made_Object" data-type="akg">Statuensockel</span>
 										mit <span  resource="#Inschrift" typeof="crmtex:TX1_Written_text">Inschrift</span></span> des
 										<span resource="#Inschrift" property="dc:creator" about="#cestius" data-type="akg">Caius
@@ -157,6 +157,7 @@
 									href="https://gn.biblhertz.it/exist/apps/fotothek/mirador?manifest=https://gn.biblhertz.it/fotothek/api/iiif/3/foto/bhpd71012z/manifest"
 									>Viewer</a>
 								</div>
+
 						</div>
 						<div class="w3-half w3-container">
 				<p>I will start from a record in the
@@ -251,8 +252,11 @@
 
 								<span resource="#obj08015434" property="crm:P129_is_about" about="#Statuensockel" data-type="akg"/>
 								<span resource="#cestiusPyramid" property="crm:P51_has_former_or_current_owner" about="#cestius" data-type="akg"/>
-								<span resource="#Statuensockel" property="lawd:foundAt" about="#cestiusPyramid" data-type="akg"/>
+								<span resource="#OrigStatuensockel" property="lawd:foundAt" about="#cestiusPyramid" data-type="akg"/>
 								<span resource="#cestiusPyramid" property="sch:url" about="https://www.wikidata.org/entity/Q725404" data-type="url"/>
+
+
+								<!--These statements should be referred to the original statue baseS-->
 
 						The inscription dates <span resource="#cestiusPyramid" property="dc:created" data-type="source">before 12 BCE</span>
 						and measures are given for the
@@ -276,7 +280,7 @@
 				<p  >Actually, there are a few more links, visible to the machines only as such,
 					for indexing related to the object and photograph: <ul resource="#obj08054714" property="crm:P129_is_about" about="#Statuensockel" data-type="akg"
 						xmlns="http://www.w3.org/1999/xhtml">
-						<li resource="#Statuensockel" property="sch:keywords" about="https://gn.biblhertz.it/skos/the49601600" data-type="akg">
+						<li resource="#obj08054714" property="sch:keywords" about="https://gn.biblhertz.it/skos/the49601600" data-type="akg">
 							<a resource="https://gn.biblhertz.it/skos/the49601600" data-type="source"
 								property="sch:url" href="https://vocab.biblhertz.it/Skosmos/midas/de/page/?uri=https%3A%2F%2Fgn.biblhertz.it%2Fskos%2Fthe49601600"
 								><span resource="https://gn.biblhertz.it/skos/the49601600" property="sch:name" data-type="source">Sockel</span> (MIDAS)</a></li>
@@ -338,7 +342,9 @@
 
 						<span resource="#Bronzestatue" property="dc:relation" about="#Statuensockel" data-type="akg"/>
 
-						<span resource="#Statuensockel2" property="lawd:foundAt" about="#cestiusPyramid" data-type="akg"/>
+						<span resource="#OrigStatuensockel2" property="lawd:foundAt" about="#cestiusPyramid" data-type="akg"/>
+
+
 
 					<p>There is no link to a record about this statue, which probably is simply not among the objects fotographed in the collection.</p>
 					<p>We do not know which one of the two inscriptions we have and how do they differ.</p>
@@ -391,7 +397,8 @@
 								about="#SCU02386">SCU 02386</a>, also a photo by <span resource="#d7290" property="dc:creator" about="#malter" data-type="source">Barbara Malter</span>.
 							<span about="#bhpd71012" property="dc:relation" resource="#d7290" data-type="akg">The photo (bhpd71012) is probably related to
 					negative d/7290</span> of the Capitolini, listed on that page.</span>
-					The page is unfortunately not maintained any more and its accessibility is not very reliable, despite the precious information contained and published there.
+					The page is unfortunately not maintained any more and its accessibility is not very reliable,
+					despite the precious information contained and published there. It is only thanks to Klaus E. Werner that I could consistently access this resource.
 				</p>
 						<p resource="#SCU02386" typeof="sch:DigitalDocument" id="objSCU02386" data-type="akg">
 							Now let us have a look at the link we found towards <a resource="#SCU02386" property="sch:url"
@@ -416,6 +423,9 @@
 						href="http://capitolini.net/object.xql?urn=urn:collectio:0001:foto:col:07642"
 								><span resource="#fto07642" typeof="sch:ImageObject" data-type="akg"></span>Foto Col 07642</a>
 				</p>
+
+
+
 				<p>Musei Capitolini NCE 02386 has four images, documenting clearly
 				   the text and
 					the three visible sides of the statue base.</p>
@@ -472,8 +482,21 @@
 										<span  resource="#d19907" property="crm:P62_depicts" about="#Inschrift4" data-type="akg"/>
 					These last two images show also that there are additional texts on the same statue
 					base, on each side.
+
+					<span resource="#OrigStatuensockel" typeof="sdc:UniProd" data-type="akg"></span>
+						<span resource="#OrigStatuensockel" typeof="sdc:UniCirc" data-type="akg"></span>
+						<span resource="#OrigStatuensockel" property="sdc:undergoesTransformation" about="#tr1" data-type="akg"></span>
+						<span resource="#tr1" property="sdc:hasTranformationModel" about="sdc:A2" data-type="akg"></span>
+						<span resource="#tr1" property="sdc:produces" about="#Inschrift3" data-type="akg"></span>
+						<span resource="#tr1" property="sdc:produces" about="#Inschrift4" data-type="akg"></span>
+						<span resource="#tr1" property="sdc:resultsIn" about="#StatuensockelMitInschriften" data-type="akg"></span>
+						<span resource="#StatuensockelMitInschriften" typeof="sdc:UniCirc" data-type="akg"></span>
+
 										<span  resource="#StatuensockelMitInschriften" property="epont:carriesText" about="#Inschrift3" data-type="akg"/>
 										<span  resource="#StatuensockelMitInschriften" property="epont:carriesText" about="#Inschrift4" data-type="akg"/>
+
+
+
 					Both are dated 1681.
 					The size of the fotos does not allow to
 					read much but it is already visible that a major lack of historical information
@@ -555,15 +578,6 @@
 					<p>It seems plausible
 						that these are copies of the same text, inscribed in the same circumstance and for the same purpose in one creative act, so without being one copy of the other.
 
-						<span resource="#Statuensockel" typeof="sdc:UniProd" data-type="akg"></span>
-						<span resource="#Statuensockel" typeof="sdc:UniCirc" data-type="akg"></span>
-						<span resource="#Prod2" typeof="sdc:UniProd" data-type="akg"></span>
-						<span resource="#Statuensockel" property="sdc:undergoesTransformation" about="#tr1" data-type="akg"></span>
-						<span resource="#tr1" property="sdc:hasTranformationModel" about="sdc:A2" data-type="akg"></span>
-						<span resource="#tr1" property="sdc:produces" about="#Inschrift3" data-type="akg"></span>
-						<span resource="#tr1" property="sdc:produces" about="#Inschrift4" data-type="akg"></span>
-						<span resource="#tr1" property="sdc:resultsIn" about="#StatuensockelMitInschriften" data-type="akg"></span>
-						<span resource="#StatuensockelMitInschriften" typeof="sdc:UniCirc" data-type="akg"></span>
 
 									19906 has also decoration and haraldic
 									signs, but this may be only related to its relative placement, for example it was more exposed to trafic. </p>
@@ -576,6 +590,7 @@
 										(secc. X-XIX), Roma 2009</a> lists these
 					names at page 56 and 119 of the PDF, which does not correspond to the pagination
 					of the printed book, as notified in the PDF itself.
+					<span resource="#ListSenato" property="dc:source" about="#fasti" data-type="akg"></span>
 										<span resource="#ListSenato" property="crm:P129_is_about" about="#ffdr" data-type="akg"></span>
 										<span resource="#ListSenato" property="crm:P129_is_about" about="#fas" data-type="akg"></span>
 										<span resource="#ListSenato" property="crm:P129_is_about" about="#ro" data-type="akg"></span>
@@ -669,8 +684,8 @@
 							>SCU 01018</a></span>
 						<span resource="#SCU01018" property="crm:P129_is_about" about="#Statuensockel2" data-type="akg"/>
 						<span  resource="#Statuensockel2" typeof="crm:E22_Human-made_Object" data-type="akg"/>
-						<span resource="#Statuensockel" property="lawd:hasAttestation" about="#messalla" data-type="akg"></span>
-						<span resource="#Statuensockel2" property="lawd:hasAttestation" about="#messalla" data-type="akg"></span>
+						<span resource="#Inschrift" property="lawd:hasAttestation" about="#messalla" data-type="akg"></span>
+						<span resource="#Inschrift2" property="lawd:hasAttestation" about="#messalla" data-type="akg"></span>
 						<span resource="#SCU01018" property="sch:isPartOf" about="#capitolini" data-type="source"/>, and
 
 						<span resource="#SCU01032" typeof="sch:DigitalDocument" data-type="akg">
@@ -681,14 +696,15 @@
 						<span resource="#Statuensockel3" property="lawd:hasAttestation" about="#messalla" data-type="akg"></span>
 						<span resource="#SCU01032" property="sch:isPartOf" about="#capitolini" data-type="source"/>. </p>
 
+
 						<p>The first seems to be unrelated given the findspot. </p>
 
 							<p>The images of the
 					latter instead are interesting, because they also carry inscriptions of the Magistratura, which seem to be even later than the ones
 					on NCE 02386. </p>
 
-										<span  resource="#Statuensockel3" property="epont:carriesText" about="#Inschrift4" data-type="akg"/>
 										<span  resource="#Statuensockel3" property="epont:carriesText" about="#Inschrift5" data-type="akg"/>
+										<span  resource="#Statuensockel3" property="epont:carriesText" about="#Inschrift6" data-type="akg"/>
 									<p>
 										<a
 											href="http://www.accademiamoroniana.it/indici/Senato%20romano.pdf"
@@ -767,9 +783,9 @@
 
 						</div>
 
-						<span resource="#Statuensockel5" typeof="sdc:UniProd" data-type="akg"></span>
-						<span resource="#Statuensockel5" typeof="sdc:UniCirc" data-type="akg"></span>
-						<span resource="#Statuensockel5" property="sdc:undergoesTransformation" about="#tr2" data-type="akg"></span>
+						<span resource="#OrigStatuensockel2" typeof="sdc:UniProd" data-type="akg"></span>
+						<span resource="#OrigStatuensockel2" typeof="sdc:UniCirc" data-type="akg"></span>
+						<span resource="#OrigStatuensockel2" property="sdc:undergoesTransformation" about="#tr2" data-type="akg"></span>
 						<span resource="#tr2" property="sdc:hasTranformationModel" about="sdc:A2" data-type="akg"></span> <!--ajout de contenu sans support matériel-->
 						<span resource="#tr2" property="sdc:produces" about="#Inschrift5" data-type="akg"></span>
 						<span resource="#tr2" property="sdc:produces" about="#Inschrift6" data-type="akg"></span>
@@ -780,7 +796,8 @@
 
 						<span  resource="#StatuensockelMitInschriften2" property="epont:carriesText" about="#Inschrift5" data-type="akg"/>
 						<span  resource="#StatuensockelMitInschriften2" property="epont:carriesText" about="#Inschrift6" data-type="akg"/>
-						<span  resource="#Statuensockel5" property="epont:carriesText" about="#Inschrift2" data-type="akg"/>
+						<span  resource="#OrigStatuensockel2" property="epont:carriesText" about="#Inschrift2" data-type="akg"/>
+
 
 				</div>
 			</div>
@@ -791,16 +808,16 @@
 					<p>We then have three objects.
 
 						<ul>
-							<li resource="#SCU02386" property="sch:sameAs" about="#StatuensockelMitInschriften" data-type="akg">SCU 02386, the statue base on which we can see the first text
+							<li resource="#SCU02386" property="crm:P129_is_about" about="#Statuensockel" data-type="akg">SCU 02386, the statue base on which we can see the first text
 								(later we will see that this can be identified as EDR093684),
 								and Forcella 178 on the two sides, with the statue of Giulia Domna on top,
 								for which we have photos of all sides from the Musei Capitolini.
 						</li>
-							<li resource="#SCU01032" property="sch:sameAs" about="#Statuenbasis2" data-type="akg">SCU 01032, the back half of the statue base with text
+							<li resource="#SCU01032" property="crm:P129_is_about" about="#Statuensockel3" data-type="akg">SCU 01032, the back half of the statue base with text
 								(later we will see that this can be identified as EDR103369),
 								and Forcella 198 on the sides, for which we have photos of all sides from the Musei Capitolini.
 						</li>
-							<li resource="#SCU01883" property="sch:sameAs" about="#Statuenbasis1" data-type="akg">SCU 01883, the front half of the statue base with text
+							<li resource="#SCU01883" property="crm:P129_is_about" about="#Statuensockel2" data-type="akg">SCU 01883, the front half of the statue base with text
 								(later we will see that this can be identified as EDR103369),
 								and Forcella 198 on the sides, for which we only have a photo
 								of the front side in EDR but none of the sides and not at the Musei Capitolini.
@@ -808,19 +825,36 @@
 						</ul></p>
 
 						<p>If this consideration was right, because we have dated the texts on the sides from the lists of the Conversatori,
-							we could say that the dating provided in the catalogue for this text does not correspond,
+							we could say that the dating provided in the Museum catalogue for this text does not correspond,
 							which would be however of minor gain. Also, it remains a mistery why the
 							image of the text is related to the atrio of the musei, but we do not have photos of those,
 							while there is documentation of what seems to be the back of that.</p>
 
 						<span resource="#StatuensockelMitInschriften2" property="sdc:undergoesTransformation" about="#tr3" data-type="akg"></span>
 						<span resource="#tr3" property="sdc:hasTranformationModel" about="sdc:D3" data-type="akg"></span> <!--division simple-->
-						<span resource="#tr3" property="sdc:resultsIn" about="#Statuenbasis1" data-type="akg"></span>
-						<span resource="#tr3" property="sdc:resultsIn" about="#Statuenbasis2" data-type="akg"></span>
-						<span resource="#Statuensockel4" property="sch:sameAs" about="#Statuenbasis1" data-type="akg"></span>
-						<span resource="#Statuensockel4" property="sch:description" content="front" data-type="akg"></span>
-						<span resource="#Statuensockel3" property="sch:sameAs" about="#Statuenbasis2" data-type="akg"></span>
+						<span resource="#tr3" property="sdc:resultsIn" about="#Statuensockel3" data-type="akg"></span>
+						<span resource="#tr3" property="sdc:resultsIn" about="#Statuensockel2" data-type="akg"></span>
+						<span resource="#Statuensockel2" property="sch:description" content="front" data-type="akg"></span>
+						<span resource="#Statuensockel2" typeof="sdc:UniCirc" data-type="akg"></span>
 						<span resource="#Statuensockel3" property="sch:description" content="back" data-type="akg"></span>
+						<span resource="#Statuensockel3" typeof="sdc:UniCirc" data-type="akg"></span>
+
+
+						<span  resource="#Statuensockel2" property="epont:carriesText" about="#Inschrift5" data-type="akg"/>
+						<span  resource="#Statuensockel2" property="epont:carriesText" about="#Inschrift6" data-type="akg"/>
+
+						<span resource="#StatuensockelMitInschriften" property="sdc:undergoesTransformation" about="#tr4" data-type="akg"></span>
+						<span resource="#tr4" property="sdc:hasTranformationModel" about="sdc:D3" data-type="akg"></span> <!--division simple-->
+						<span resource="#tr4" property="sdc:resultsIn" about="#Statuensockel" data-type="akg"></span>
+						<span resource="#tr4" property="sdc:resultsIn" about="#Statuensockel4" data-type="akg"></span>
+						<span resource="#Statuensockel" property="sch:description" content="front" data-type="akg"></span>
+						<span resource="#Statuensockel" typeof="sdc:UniCirc" data-type="akg"></span>
+						<span resource="#Statuensockel4" property="sch:description" content="back" data-type="akg"></span>
+						<span resource="#Statuensockel4" typeof="sdc:UniCirc" data-type="akg"></span>
+
+
+						<span  resource="#Statuensockel4" property="epont:carriesText" about="#Inschrift3" data-type="akg"/>
+						<span  resource="#Statuensockel4" property="epont:carriesText" about="#Inschrift4" data-type="akg"/>
 
 						<p>Additionally, we will see later in the survey that another image is available for this text,
 							from the Museo in Porta San. Paolo, a photo however of what perhaps is a copy, with rubrication.</p>
@@ -835,20 +869,49 @@
 			<div class="mySlides w3-display-container" id="musei1" style="width:100%">
 				<div class="w3-container w3-margin w3-padding">
 					<h2>In the Musei Capitolini, Livia and Julia Domna</h2>
-					<div class="w3-container w3-padding-64">
-					<p>So, up to this point we have from the web hints, and while the Museum catalogue has wonderful pictures of the statues, there are only thumbnails of the inscriptions and only of those which are
-						considered more important.
-					</p>
-					<p>Looking at the <a href="https://artsandculture.google.com/partner/musei-capitolini">Museum with Google Arts & Culture</a> did not help before this,
+					<p>So, up to this point we have from the web hints, and while the Museum catalogue has wonderful pictures
+						of the statues, there are only thumbnails of the inscriptions and only of those which are
+						considered more important. Looking at the <a href="https://artsandculture.google.com/partner/musei-capitolini">Museum
+							with Google Arts & Culture</a> did not help before this,
 						even with the aid of the catalogue to find orientation.</p>
 <p>We are short of two halfs of the texts from the sides of the half basis with the <q>textus altero</q>.</p>
-<p>So, I went to the Musei Capitolini on Friday, 23.06.23 to find out. From the web resources one does not even know really where are the Statue Bases now.</p>
-
-<p>They are easy to find, in the Atrio/Galleria of the Palazzo Nuovo,
+<p>So, I went to the Musei Capitolini on Friday, 23.06.23 to find out. From the web resources one does not
+	even know really where are the Statue Bases now. They are easy to find, in the Atrio/Galleria of the Palazzo Nuovo,
 	reached from the underground passage</p>
+
+<!--
+
+	#OrigStatuensockel					is the original base with cil0601375a
+	#Bronzestatue						is the remains visible from drawings of bronze statues on top of one of the Statuensockel
+
+	#Statuensockel						is the front half of the original base with cil0601375a
+	#Inschrift							is cil0601375a
+	#Statuensockel4						is the back half of the original base with cil0601375a
+	#StatuensockelMitInschriften 		is the statue base with cil0601375a with the two new inscriptions of the XVII century Forcella 178 added
+	#Inschrift3 						is Forcella 178 without araldic
+	#Inschrift4							is Forcella 178 with the araldic
+
+	#OrigStatuensockel2    				is the other Statue base, in its entirety, because it defined as the other one found there
+
+	#Statuensockel2						is the front half of the original base with cil0601375a
+	#Inschrift2							is cil0601375b
+	#Statuensockel3						is the back half of the original base with cil0601375b
+	#StatuensockelMitInschriften2		is the statue base with cil0601375b with the two new inscriptions of the XVII century Forcella 198 adde
+	#Inschrift5 						is Forcella 198 without araldic
+	#Inschrift6							is Forcella 198 with the araldic
+
+	#SCU00049 							is the digital object of capitolini describing the statue of Julia Domna
+
+	#SCU02386 							is the digital object of capitolini describing the front half of the original base with cil0601375a, here #Statuensockel
+	#SCU01018							is the digital object of capitolini describing the front half of the original base with cil0601375b, here #Statuensockel2
+	#SCU01032							is the digital object of capitolini describing the back half of the original base with cil0601375b, here #Statuensockel3
+	#SCU01883							is the digital object of capitolini describing the back half of the original base with cil0601375a, here #Statuensockel4
+-->
 <div class="w3-row">
 <div class="w3-third">
 	<figure  resource="#foto1" typeof="sch:ImageObject" data-type="akg">
+		<span resource="#foto1" property="crm:P62_depicts" about="#Statuensockel" data-type="akg"/>
+		<span resource="#foto1" property="crm:P62_depicts" about="#SCU00049" data-type="akg"/>
 		<img resource="#foto1" property="sch:contentUrl" data-type="akg"
 		src="personal/1cil061375aJuliaDomnaSX.jpg"
 		style="width:100%"/>
@@ -859,6 +922,7 @@
 </div>
 <div class="w3-third">
 	<figure  resource="#foto2" typeof="sch:ImageObject" data-type="akg">
+		<span resource="#foto2" property="crm:P62_depicts" about="#Statuensockel2" data-type="akg"/>
 		<img resource="#foto2" property="sch:contentUrl" data-type="akg"
 		src="personal/2cil0601375bLiviaDX.jpg"
 		style="width:100%"/>
@@ -868,6 +932,8 @@
 </div>
 <div class="w3-third">
 	<figure  resource="#foto3" typeof="sch:ImageObject" data-type="akg">
+		<span resource="#foto3" property="crm:P62_depicts" about="#Statuensockel" data-type="akg"/>
+		<span resource="#foto3" property="crm:P62_depicts" about="#Statuensockel2" data-type="akg"/>
 		<img resource="#foto3" property="sch:contentUrl" data-type="akg"
 		src="personal/3JuliaDomnaVSLivia.jpg"
 		style="width:100%"/>
@@ -881,6 +947,7 @@
 <div class="w3-row">
 	<div class="w3-quarter">
 		<figure  resource="#foto4" typeof="sch:ImageObject" data-type="akg">
+			<span resource="#foto4" property="crm:P62_depicts" about="#Statuensockel2" data-type="akg"/>
 			<img resource="#foto4" property="sch:contentUrl" data-type="akg"
 			src="personal/4Livia.jpg"
 			style="width:100%"/>
@@ -891,6 +958,8 @@
 	</div>
 	<div class="w3-quarter">
 		<figure  resource="#foto5" typeof="sch:ImageObject" data-type="akg">
+			<span resource="#foto5" property="crm:P62_depicts" about="#SCU00049" data-type="akg"/>
+			<span resource="#foto5" property="crm:P62_depicts" about="#Statuensockel" data-type="akg"/>
 			<img resource="#foto5" property="sch:contentUrl" data-type="akg"
 			src="personal/5JuliaDomna.jpg"
 			style="width:100%"/>
@@ -900,6 +969,8 @@
 	</div>
 	<div class="w3-quarter">
 		<figure  resource="#foto6" typeof="sch:ImageObject" data-type="akg">
+			<span resource="#foto6" property="crm:P62_depicts" about="#SCU00049" data-type="akg"/>
+			<span resource="#foto6" property="crm:P62_depicts" about="#Statuensockel" data-type="akg"/>
 			<img resource="#foto6" property="sch:contentUrl" data-type="akg"
 			src="personal/6cil061375aJuliaDomnaDX.jpg"
 			style="width:100%"/>
@@ -909,6 +980,7 @@
 	</div>
 	<div class="w3-quarter">
 		<figure  resource="#foto7" typeof="sch:ImageObject" data-type="akg">
+			<span resource="#foto7" property="crm:P62_depicts" about="#Statuensockel2" data-type="akg"/>
 			<img resource="#foto7" property="sch:contentUrl" data-type="akg"
 			src="personal/7cil0601375bLiviaSX.jpg"
 			style="width:100%"/>
@@ -918,40 +990,25 @@
 	</div>
 
 	</div>
-</div>
-				</div>
-			</div>
+</div>		</div>
 
 			<div class="mySlides w3-display-container" id="musei2" style="width:100%">
 				<div class="w3-container w3-margin w3-padding">
-					<h2>In the Musei Capitolini - Forcella n.198</h2>
+					<h2>In the Musei Capitolini - Forcella n. 198</h2>
 					<div class="w3-container w3-padding-64">
-
-						<div class="w3-display-container" >
-							<figure  resource="#Forcella198" typeof="sch:ImageObject" data-type="akg">
-								<img resource="#Forcella198" property="sch:contentUrl" data-type="akg"
-								src="Forcella198.png"
-								style="width:100%"/>
-							<figcaption
-								><a resource="#Forcella198" property="sch:url" data-type="akg"
-									href="https://books.google.it/books?id=jOBLAAAAYAAJ&amp;printsec=frontcover&amp;hl=it&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage"
-									>Screenshot from Google Books Digital edition of V. Forcella. Iscrizioni delle chiese e d'altri edificii di Roma dal secolo
-								XI fino ai giorni nostri, Volume 1. Roma: Tipografia delle Scienze
-								Matematiche e Fisiche 1869. <span resource="#Forcella178" property="sch:isPartOf" about="#Forcella">Inscription number 198</span>.</a></figcaption>
-							</figure>
-						</div>
-							<div class="w3-row">
+              <div class="w3-row">
 								<div class="w3-half">
-						<figure  resource="#fotoForcella178SX" typeof="sch:ImageObject" data-type="akg">
+						<figure   resource="#fotoForcella178SX" typeof="sch:ImageObject" data-type="akg">
+							<span resource="#fotoForcella178SX" property="crm:P62_depicts" about="#Inschrift5" data-type="akg"/>
 						<img resource="#fotoForcella178SX" property="sch:contentUrl" data-type="akg"
 						src="personal/Forcella198SX.jpg"
 						style="width:100%"/>
 					<figcaption
 						>Forcella 198, on the left of the base under Livia</figcaption></figure>
 					</div>
-					<div class="w3-container">
 						<div class="w3-half">
-				<figure  resource="#fotoForcella178DX" typeof="sch:ImageObject" data-type="akg">
+				<figure    resource="#fotoForcella178DX" typeof="sch:ImageObject" data-type="akg">
+					<span resource="#fotoForcella178DX" property="crm:P62_depicts" about="#Inschrift6" data-type="akg"/>
 				<img resource="#fotoForcella178DX" property="sch:contentUrl" data-type="akg"
 				src="personal/Forcella198DX.jpg"
 				style="width:100%"/>
@@ -962,15 +1019,16 @@
 					<div class="w3-row">
 						<div class="w3-half">
 				<figure  resource="#fotomontaggioSXofCil1375b" typeof="sch:ImageObject" data-type="akg">
+					<span resource="#fotomontaggioSXofCil1375b" property="crm:P62_depicts" about="#Inschrift5" data-type="akg"/>
 				<img resource="#fotomontaggioSXofCil1375b" property="sch:contentUrl" data-type="akg"
 				src="montaggi/SXofCil1375b.png"
 				style="width:100%"/>
 			<figcaption
 				>the two parts of the left side of the statue base under Livia</figcaption></figure>
 			</div>
-			<div class="w3-container">
 				<div class="w3-half">
 					<figure  resource="#fotomontaggioDXofCil1375b" typeof="sch:ImageObject" data-type="akg">
+						<span resource="#fotomontaggioDXofCil1375b" property="crm:P62_depicts" about="#Inschrift6" data-type="akg"/>
 						<img resource="#fotomontaggioDXofCil1375b" property="sch:contentUrl" data-type="akg"
 						src="montaggi/DXofCil1375b.png"
 						style="width:100%"/>
@@ -979,7 +1037,7 @@
 	</div>
 			</div>
 					</div>
-				</div>
+			</div>
 			</div>
 
 			<div class="mySlides w3-display-container" id="musei2" style="width:100%">
@@ -990,8 +1048,9 @@
 						<div class="w3-row">
 							<div class="w3-third">
 								<figure  resource="#foto8" typeof="sch:ImageObject" data-type="akg">
+									<span resource="#foto8" property="crm:P62_depicts" about="#Statuensockel3" data-type="akg"/>
 									<img resource="#foto8" property="sch:contentUrl" data-type="akg"
-									src="/personal/8backOfcil0601375bContext.jpg"
+									src="personal/8backOfcil0601375bContext.jpg"
 									style="width:100%"/>
 								<figcaption
 									>The Statue on top of the back-half of the statue base on which we found Livia.</figcaption>
@@ -999,6 +1058,7 @@
 							</div>
 							<div class="w3-third">
 								<figure  resource="#foto9" typeof="sch:ImageObject" data-type="akg">
+									<span resource="#foto9" property="crm:P62_depicts" about="#Statuensockel3" data-type="akg"/>
 									<img resource="#foto9" property="sch:contentUrl" data-type="akg"
 									src="personal/9backOfcil0601375bSXwithStatue.jpg"
 									style="width:100%"/>
@@ -1008,6 +1068,7 @@
 							</div>
 							<div class="w3-third">
 								<figure  resource="#foto10" typeof="sch:ImageObject" data-type="akg">
+									<span resource="#foto10" property="crm:P62_depicts" about="#Statuensockel3" data-type="akg"/>
 									<img resource="#foto10" property="sch:contentUrl" data-type="akg"
 									src="personal/10backOfcil0601375bDXwithStatue.jpg"
 									style="width:100%"/>
@@ -1023,6 +1084,7 @@
 							<div class="w3-row">
 								<div class="w3-third">
 									<figure  resource="#foto13" typeof="sch:ImageObject" data-type="akg">
+										<span resource="#foto13" property="crm:P62_depicts" about="#Statuensockel4" data-type="akg"/>
 										<img resource="#foto13" property="sch:contentUrl" data-type="akg"
 										src="personal/13backOfcil0601375aDX.jpg"
 										style="width:100%"/>
@@ -1032,6 +1094,7 @@
 								</div>
 								<div class="w3-third">
 									<figure  resource="#foto12" typeof="sch:ImageObject" data-type="akg">
+										<span resource="#foto12" property="crm:P62_depicts" about="#Statuensockel4" data-type="akg"/>
 										<img resource="#foto12" property="sch:contentUrl" data-type="akg"
 										src="personal/12backOfcil0601375a.jpg"
 										style="width:100%"/>
@@ -1041,6 +1104,7 @@
 								</div>
 								<div class="w3-third">
 									<figure  resource="#foto14" typeof="sch:ImageObject" data-type="akg">
+										<span resource="#foto14" property="crm:P62_depicts" about="#Statuensockel4" data-type="akg"/>
 										<img resource="#foto14" property="sch:contentUrl" data-type="akg"
 										src="personal/14backOfcil0601375aSX.jpg"
 										style="width:100%"/>
@@ -1061,15 +1125,16 @@
 					<div class="w3-row">
 						<div class="w3-half">
 				<figure  resource="#fotomontaggioSXofCil1375a" typeof="sch:ImageObject" data-type="akg">
+					<span resource="#fotomontaggioSXofCil1375a" property="crm:P62_depicts" about="#Inschrift3" data-type="akg"/>
 				<img resource="#fotomontaggioSXofCil1375a" property="sch:contentUrl" data-type="akg"
 				src="montaggi/SXofCil1375a.png"
 				style="width:100%"/>
 			<figcaption
 				>the two parts of the left side of the statue base under Julia Domna</figcaption></figure>
 			</div>
-			<div class="w3-container">
 				<div class="w3-half">
 					<figure  resource="#fotomontaggioDXofCil1375a" typeof="sch:ImageObject" data-type="akg">
+						<span resource="#fotomontaggioDXofCil1375a" property="crm:P62_depicts" about="#Inschrift4" data-type="akg"/>
 						<img resource="#fotomontaggioDXofCil1375a" property="sch:contentUrl" data-type="akg"
 						src="montaggi/DXofCil1375a.png"
 						style="width:100%"/>
@@ -1077,7 +1142,6 @@
 						>the two parts of the right side of the statue base under Julia Domna</figcaption></figure>
 	</div>
 			</div>
-					</div>
 					</div>
 				</div>
 			</div>
@@ -1090,32 +1154,38 @@
 					learn that there was, as one could expect, a statue also here until recently.</p>
 					<p>The angle of the photos does not allow to see the texts. I could not make my way to the ground floor for Livia and Julia Domna either.</p>
 					<div class="w3-row">
-						<div class="w3-quarter">
+						<div class="w3-half">
 							<figure  resource="#fotomontaggioDXofCil1375b" typeof="sch:ImageObject" data-type="akg">
+								<span resource="#fotomontaggioDXofCil1375b" property="crm:P62_depicts" about="#Statuensockel4" data-type="akg"/>
 								<img resource="#fotomontaggioDXofCil1375b" property="sch:contentUrl" data-type="akg"
 								src="googleartandculture/backOfcil0601375aStatue.png"
 								style="width:100%"/>
 							<figcaption
 								>Screenshot from Google Arts and Culture of the Statue on top of the back part of the statue base on which once was CIL 06 01375a</figcaption></figure>
 						</div>
-						<div class="w3-quarter">
+						<div class="w3-half">
 							<figure  resource="#fotomontaggioDXofCil1375b" typeof="sch:ImageObject" data-type="akg">
+								<span resource="#fotomontaggioDXofCil1375b" property="crm:P62_depicts" about="#Statuensockel4" data-type="akg"/>
 								<img resource="#fotomontaggioDXofCil1375b" property="sch:contentUrl" data-type="akg"
 								src="googleartandculture/backOfcil0601375aSXwithStatue.png"
 								style="width:100%"/>
 							<figcaption
 								>Screenshot from Google Arts and Culture of the Statue on top of the back part of the statue base on which once was CIL 06 01375a</figcaption></figure>
 						</div>
-						<div class="w3-quarter">
+						</div>
+						<div class="w3-row">
+						<div class="w3-half">
 							<figure  resource="#fotomontaggioDXofCil1375b" typeof="sch:ImageObject" data-type="akg">
+								<span resource="#fotomontaggioDXofCil1375b" property="crm:P62_depicts" about="#Statuensockel4" data-type="akg"/>
 								<img resource="#fotomontaggioDXofCil1375b" property="sch:contentUrl" data-type="akg"
 								src="googleartandculture/backOfcil0601375aWithStatue.png"
 								style="width:100%"/>
 							<figcaption
 								>Screenshot from Google Arts and Culture of the Statue on top of the back part of the statue base on which once was CIL 06 01375a</figcaption></figure>
 						</div>
-						<div class="w3-quarter">
+						<div class="w3-half">
 							<figure  resource="#fotomontaggioDXofCil1375b" typeof="sch:ImageObject" data-type="akg">
+								<span resource="#fotomontaggioDXofCil1375b" property="crm:P62_depicts" about="#Statuensockel3" data-type="akg"/>
 								<img resource="#fotomontaggioDXofCil1375b" property="sch:contentUrl" data-type="akg"
 								src="googleartandculture/backOfcil0601375bSXwithStatue.png"
 								style="width:100%"/>
@@ -1139,7 +1209,10 @@
 						src="personal/19FastiConsularesContext.jpg"
 						style="width:100%"/>
 					<figcaption
-						>The Fasti Consulares</figcaption></figure>
+						>The <span resource="#fotoFastiContext" property="crm:P62_depicts" about="#fasti"></span>Fasti Consulares</figcaption></figure>
+
+						<p>Going to the Museum was very useful. All pieces of the bases could be found.</p>
+						<p>Of course the quality of my pictures is turistic and it does not even stand close to any sort of documentation fotography.</p>
 					</div>
 				</div>
 			</div>
@@ -1193,6 +1266,9 @@
 					while CIL 6 01375b is the text on statue basis composed of SCU 01883 and
 					SCU 01032 if we accept the point above, or simply on an initial base 2.
 				</p>
+				<p>The CIL text, composed and edited as Forcella edited its own corpus (I think he was a pupil of the CIL editors) also tells us with references of the first movements of the two statue bases.
+					One would have to find those references, which would be interesting also to try to date the time at which the two bases where cut, in the XVIII or XIX century.
+				</p>
 							<p><a resource="#cil" property="sch:url" data-type="akg"
 								href="https://cil.bbaw.de/hauptnavigation/das-cil/baende"
 								>The <span resource="#cil" typeof="sch:ResearchOrganization" data-type="akg">Corpus Inscriptionum Latinarum</span> Website</a> does not seam to
@@ -1219,8 +1295,9 @@
 								which specifies that the excavation was done to dig out the base of the Pyramid (<span resource="#findspot1" property="sch:keyword" data-type="akg"
 									about="https://vocab.getty.edu/aat/300000986">stylobate</span>
 								<span resource="#findspot1" typeof="crm:E53_Place" data-type="akg"></span>).
-								<span resource="#Statuensockel" property="lawd:foundAt" about="#findspot1" data-type="akg"></span>
-								<span resource="#Statuensockel5"  property="lawd:foundAt" about="#findspot1" data-type="akg"></span>
+								<span resource="#findspot1" property="skos:broadMatch" about="#cestiusPyramid"/>
+								<span resource="#OrigStatuensockel" property="lawd:foundAt" about="#findspot1" data-type="akg"></span>
+								<span resource="#OrigStatuensockel2"  property="lawd:foundAt" about="#findspot1" data-type="akg"></span>
 								<span resource="#restorationActivity" property="crm:P20_has_specific_purpose" about="#restorationEvent" data-type="akg"></span>
 								<span resource="#restorationActivity" property="crm:P14_carried_out_by" about="#AVII" data-type="akg"></span>
 								<span resource="#restorationEvent" typeof="crm:E5_Event" data-type="akg"></span>
@@ -1244,7 +1321,7 @@
 								<span  resource="#bhon09324" property="sch:isPartOf" about="#fotothek" data-type="source" class="w3-display-topright w3-small caption"
 									>Negativ - bhon09324:
 									<span resource="#cestiusPyramid" typeof="crm:E22_Human-made_object" data-type="akg"/>
-									<span resource="#cestiusPyramid" property="epont:carriesText" data-type="akg"/>
+									<span resource="#cestiusPyramid" property="epont:carriesText" about="#Inschrift8" data-type="akg"/>
 									Piramide di Caio Cestio - <span resource="#obj08015434" property="crm:P129_is_about" about="#Inschrift8" data-type="akg"/>Detail: Inschrift</span>
 								<a target="_blank"
 									class="w3-display-bottomright w3-button"
@@ -2513,6 +2590,7 @@ The <a resource="#Chig.P.VII.13" property="sch:description" href="https://digi.v
 				<p>Most of this may be cause by the paucity of my own work as encoder/annotator/etc. but it seems plausible to say that smaller more focused models have a better chance at consistency.</p>
 
 				</div>
+			</div>
 			</div>
 
 			<div class="mySlides w3-display-container" id="networks4" style="width:100%">
