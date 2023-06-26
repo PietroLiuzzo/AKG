@@ -1913,22 +1913,22 @@ The <a resource="#Chig.P.VII.13" property="sch:description" href="https://digi.v
 					Collection</span> </p>
 						<span  resource="#kb100272" property="crm:P129_is_about" about="#Inschrift" data-type="akg"/>
 						<span  resource="#kb100272" property="crm:P129_is_about" about="#Inschrift2" data-type="akg"/>
-							<ul class="w3-row" >
-								<li class="w3-half" resource="#kbufoto1" typeof="sch:ImageObject" data-type="akg">
+							<div class="w3-row" >
+								<div class="w3-half" resource="#kbufoto1" typeof="sch:ImageObject" data-type="akg">
 									<figure>
 										<span  resource="#kbufoto1" property="crm:P62_depicts" about="#kb100272" data-type="source"/>
 										<img width="100%" src="https://kb.osu.edu/bitstream/handle/1811/100272/photo%20-%20CIL%206.1375a%20%281%29.jpg"></img>
 										<figcaption><span  resource="#kbufoto1" property="crm:P129_is_about" about="#SCU02386">photo - CIL 6.1375a (1)</span></figcaption>
 									</figure>
-								</li>
-								<li class="w3-half" resource="#kbufoto2" typeof="sch:ImageObject" data-type="akg">
+								</div>
+								<div class="w3-half" resource="#kbufoto2" typeof="sch:ImageObject" data-type="akg">
 									<figure>
 										<span  resource="#kbufoto2" property="crm:P62_depicts" about="#kb100272" data-type="source"/>
 										<img width="80%" src="https://kb.osu.edu/bitstream/handle/1811/100272/photo%20-%20CIL%206.1375a%20%282%29.jpg"></img>
 										<figcaption><span  resource="#kbufoto2" property="crm:P129_is_about" about="#SCU02386">photo - CIL 6.1375a (2)</span></figcaption>
 									</figure>
-								</li>
-							</ul>
+								</div>
+							</div>
 						<div class="w3-row" >
 								<div class="w3-third" resource="#kbufoto3" typeof="sch:ImageObject" data-type="akg">
 									<figure>
@@ -1971,7 +1971,7 @@ The <a resource="#Chig.P.VII.13" property="sch:description" href="https://digi.v
 						<span resource="#edh" property="sch:isPartOf" href="#epidatabase" data-type="akg"></span></h2>
 					<div class="w3-container w3-padding-64">
 				<div class="w3-half">
-					<div class="uv" id="uv"></div>
+					<!--<div class="uv" id="uv"></div>
 
 					<script>
       const uvdata = {
@@ -1980,7 +1980,7 @@ The <a resource="#Chig.P.VII.13" property="sch:description" href="https://digi.v
       };
 
       uv = UV.init("uv", uvdata);
-    </script>
+    </script>-->
 						<p><span resource="#HD031696" typeof="sch:DigitalDocument" data-type="akg"><a
 							resource="#HD031696" data-type="source" property="sch:url" href="https://edh.ub.uni-heidelberg.de/edh/inschrift/HD031696"
 						>HD031696</a> is referenced
@@ -2366,7 +2366,7 @@ The <a resource="#Chig.P.VII.13" property="sch:description" href="https://digi.v
 							<code> @property @href</code>
 							<code> @property @src </code>
 						<p>
-						You can see here the network of statements availabe (about 500).
+						You can see here the network of statements availabe (about 600).
 						The network formed by the argument in this contribution.
 						</p>
 							<p>All triples here are extracted and serialised as nodes and edges.</p>
@@ -2458,7 +2458,7 @@ The <a resource="#Chig.P.VII.13" property="sch:description" href="https://digi.v
 					<div class="w3-container w3-margin w3-padding">
 						<h2>Cleaning the Network</h2>
 						<div class="w3-container w3-padding-64">
-				<p>Here we can observe something which we knew already: the content of a contribution is coherent (hopefully),
+				<p>In the previous graphs we can observe something which we knew already: the content of a contribution is coherent (hopefully),
 					and the resources out there are only some times kept together by sporadic links.</p>
 				<p>If we also clean up relations which are not directly relevant semantically to a researcher, e.g. urls, we have very little, but a quite clear picture of what resources we actually have.</p>
 
@@ -2513,7 +2513,9 @@ The <a resource="#Chig.P.VII.13" property="sch:description" href="https://digi.v
 						which or what text is on what stone and what their relationship is.
 						We need an argument to make sense of that information and many more statements. </p>
 						<p>But of course this example alone is not a paradigm of the general situation which is definitely much more complex as the items become more complex, multilayered and interconnected. </p>
-						<p>The important information, the one adding up knowledge of the objects, discovered by following up links provided and initial informations,
+						<p>With this we have looked at the connections between web resources only, and not at
+							the quality of the information retrieved by following those connections.
+							The important information, the one adding up knowledge of the objects, discovered by following up links provided and initial informations,
 							 came up primarily in my opinion from:
 
 						<ul>
@@ -2531,7 +2533,7 @@ The <a resource="#Chig.P.VII.13" property="sch:description" href="https://digi.v
 							focusing on what is more important (the contents, the research, their sharing and openness etc.) is essential
 						</p>
 					  <p>But let us assume this was not the case and that the information in databases and online resources
-						was actually directly and immediately informative and sufficient to satisfy one's curiosity.</p>
+						was actually directly and immediately informative and sufficient to satisfy one's curiosity. We would still need social glue to put it together and reach it, as links are not bidirectional.</p>
 					</div>
 				</div>
 			</div>
@@ -2540,8 +2542,10 @@ The <a resource="#Chig.P.VII.13" property="sch:description" href="https://digi.v
 				<div class="w3-container w3-margin w3-padding">
 					<h2>Graphs by type of relation</h2>
 					<div class="w3-container w3-padding-64">
-					<p>Can we evaluate which kind of information has more to say?</p>
-					<p>I have tried splitting up the data in this paper in networks by vocabulary of the statements.</p>
+					<p>I have run another small experiment on the data I have encoded here
+						to see if we can evaluate which kind of information has more to say.</p>
+					<p>I have tried splitting up the data in this paper in networks by
+						vocabulary of the statements.</p>
 
 				<div class="w3-row" style="height: 300px;">
 					<div class="w3-half">
@@ -2576,10 +2580,31 @@ The <a resource="#Chig.P.VII.13" property="sch:description" href="https://digi.v
 					</div>
 				</div>
 
-				<p>Most of this may be cause by the paucity of my own work as encoder/annotator/etc. but it seems plausible to say that smaller more focused models have a better chance at consistency.</p>
-
+				<p>Most of this may be cause by the paucity of my own work as encoder/annotator/etc.
+					but it seems plausible to say that smaller more focused
+					models have a better chance at consistency, readibility and at the end of the day results.
+				I could have chosen better visualizations of course. Additionally, there are models which provide
+				more precise information and yet do not address the basics.</p>
+<p>The basics, like CIDOC-CRM modeled information could be possibly extracted and embedded.</p>
 				</div>
 			</div>
+			</div>
+
+			<div class="mySlides w3-display-container" id="networks3b" style="width:100%">
+				<div class="w3-container w3-margin w3-padding">
+					<h2>Graphs by type of relation</h2>
+					<div class="w3-container w3-padding-64">
+					<p>This additional graph only shows the statements which are semantically relevant by vocabulary.</p>
+					</div>
+
+					<figure>
+						<div id="semantical" style="height:300px"></div>
+						<script type="text/javascript" src="vis/visgraphs10.js"></script>
+						<figcaption>Bibliography, CIDOC-CRM, Epigraphic Ontology, Syntax du Codex</figcaption>
+					</figure>
+
+
+				</div>
 			</div>
 
 			<div class="mySlides w3-display-container" id="networks4" style="width:100%">
@@ -2595,16 +2620,26 @@ The <a resource="#Chig.P.VII.13" property="sch:description" href="https://digi.v
 							navigation and content value are very important for findability and for a richer network</p>
 						<p>A common graph of information, would also be of limited value as generic resource. The WWW does that already.</p>
 						<p>We need links, to join up in the wider world wide network. And not only internal links to make better sense of our own contents, but especially
-							links of others,
+							links to other resources,
 							reaching out and letting the users reach out to other relevant resources.
 							And yes, a generic link to a specific resource is more immediately useful
 							than an alignment to a third one. Especially when crossing disciplines, the paths of a mapping can be longer, but
 							indeed more fruitfull than a simple mechanical alignment.</p>
-<p>A curated link, a structured semantic structure is much more valuable than any number of machine-generated links and models.</p>
+<p>A curated link, a willfully structured semantic statament or group of statement, individually curated
+	is much more valuable than any number of machine-generated links and models.</p>
 						<p>So, I have landed to another obvious point, which I need to constantly remind myself of:
 							we need to do research, get interesting research questions, write them up and publish them.
 							Yes, just as we have done for centuries before the web.</p>
-						<p>But what can we do to facilitate that? We cannot expect anyone to be crazy enought to
+						</div>
+						</div>
+						</div>
+						<div class="mySlides w3-display-container" id="todos" style="width:100%">
+							<div class="w3-container w3-margin w3-padding">
+								<h2>Ideas for a todo list..</h2>
+
+								<div class="w3-container w3-padding-64">
+
+							<p>But what can we do to facilitate that? We cannot expect anyone to be crazy enought to
 							write up papers in HTML+RDFa. The following is my wishlist.</p>
 						<ul>
 							<li>Link outside of our resources </li>
@@ -2612,6 +2647,8 @@ The <a resource="#Chig.P.VII.13" property="sch:description" href="https://digi.v
 							<li>Encode bibliographies fully, making books and article reachable as quickly as possible.</li>
 							<li>Be linkable, exposing URLs to resources as explicitly as possible, and avoiding unreadable addresses.</li>
 							<li>Identify areas of lacking information opening up interaction possibilities like crowd/expert sourcing.</li>
+							<li>Surface structured data and alternative formats making them available.</li>
+							<li>Automate layers of RDF statements extractions according to common standard vocabularies from texts, focusing on content, not on structure.</li>
 						</ul>
 						<p>With IIIF and SEO implementations, as well as with the new Catalogue and the Vocabulary applications
 							the Fotothek has stepped up towards these needs in full respect of its responsibilities.</p>
@@ -2622,23 +2659,7 @@ The <a resource="#Chig.P.VII.13" property="sch:description" href="https://digi.v
 				</div>
 			</div>
 
-			<div class="mySlides w3-display-container" id="networks3b" style="width:100%">
-				<div class="w3-container w3-margin w3-padding">
-					<h2>Graphs by type of relation</h2>
-					<div class="w3-container w3-padding-64">
-					<p>Can we evaluate which kind of information has more to say?</p>
-					<p>I have tried splitting up the data in this paper in networks by vocabulary of the statements.</p>
-					</div>
 
-					<figure>
-						<div id="semantical" style="height:300px"></div>
-						<script type="text/javascript" src="vis/visgraphs10.js"></script>
-						<figcaption>Bibliography, CIDOC-CRM, Epigraphic Ontology, Syntax du Codex</figcaption>
-					</figure>
-
-
-				</div>
-			</div>
 
 
 
@@ -2653,7 +2674,7 @@ The <a resource="#Chig.P.VII.13" property="sch:description" href="https://digi.v
 						<p>If it is impossible to overcome this barrier, we can work the other way around and insist on web-based collaborative products which are better than their
 						counterparts.</p>
 						<p>Technicalities overwhelm the effort in many ways and hinder it largely.</p>
-						<p>Tools to write stories will always end up limiting the potential of the entire resources of the web, inevitably, and do no
+						<!--<p>Tools to write stories will always end up limiting the potential of the entire resources of the web, inevitably, and do no
 							favour to any intelligent user by making their life "easier". Researchers lives would be easier if the time invested
 							in getting them trained to fix bibliographies was invested in exploring the possibilities of the web as medium.</p>
 						<p>If ChatGPT cannot write this paper, it does not mean we should not help it be able to do so.
@@ -2669,7 +2690,7 @@ The <a resource="#Chig.P.VII.13" property="sch:description" href="https://digi.v
 					When we speak and write we adapt and understand, we let places open up questions.
 					But often if a node is needed by a model and
 					there is no sentence for it in the argument, that sentence may be useful to enhance the reading clarity.</p>
-
+				-->
 				<p>Perhaps our novel editorial enterprises may do without a specialist of the color of prints,
 					but will need at all stages an ontology specialist to help with the modeling of the argument.</p>
 
@@ -2677,13 +2698,14 @@ The <a resource="#Chig.P.VII.13" property="sch:description" href="https://digi.v
 					It organization is non sequential and has its advantages in that
 					but sequences are only possible at one
 					or two levels, because each possible path may not be precluded.
-					Arguments through data help greatly and uniquely the accessibility of data.</p>
+					Narratives through data are necessary and the sole true form of accessibility to data and information.</p>
 
 				<p>Argument-based knowledge graphs, small, specific, and standardized in their vocabularies, are in my opinion a
 					good way to let the consistency and richness of the web of data for
-					Rome but for any given context of interest, expand as the web allows it to do.</p>
+					Rome but for any given context of interest, expand as the web allows it to do, in a standardized, verifiable, reproducible and free way.</p>
 
-					<p>Contributions like this one are also self-reproducible, as the data and the argument correspond and are stored in the same format and together with the
+					<p>Contributions like this one are also self-reproducible, as the data and the argument correspond and are stored
+						in the same format and together with the
 						minimal resources for their display where needed.
 					</p>
 
@@ -2696,16 +2718,23 @@ The <a resource="#Chig.P.VII.13" property="sch:description" href="https://digi.v
 				<div class="w3-container w3-margin w3-padding">
 					<h2>Aknowledgements</h2>
 					<div class="w3-container w3-padding-64 w3-margin">
-					<p class="w3-panel">	Many thanks for their help to
-						<span resource="#AKG" about="#mitiku" property="dc:contributor" data-type="functional">Hizkiel Mitiku Alemayehu</span>,
-						<span resource="#AKG" about="#pellacani" property="dc:contributor" data-type="functional">Daniele Pellacani</span>,
-						<span resource="#AKG" about="#orlandi" property="dc:contributor" data-type="functional">Silvia Orlandi</span>,
-						<span resource="#AKG" about="#werner" property="dc:contributor" data-type="functional">Klaus E. Werner</span>,
-						<span resource="#AKG" about="#adamou" property="dc:contributor" data-type="functional">Alessandro Adamou</span>,
-						<span resource="#AKG" about="#roell"  property="dc:contributor" data-type="functional">Johannes Röll</span>, and
-						<span resource="#AKG" about="#bartsch"  property="dc:contributor" data-type="functional">Tatjana Bartsch</span>.
+					<p class="w3-panel">	Many thanks to the conference organizers and initiators, and for their direct help to me in this experiment to
+						<ul>
+						<li><span resource="#AKG" about="#mitiku" property="dc:contributor" data-type="functional">Hizkiel Mitiku Alemayehu</span>,</li>
+						<li><span resource="#AKG" about="#pellacani" property="dc:contributor" data-type="functional">Daniele Pellacani</span>,</li>
+						<li>
+						<span resource="#AKG" about="#orlandi" property="dc:contributor" data-type="functional">Silvia Orlandi</span>,</li>
+						<li>
+						<span resource="#AKG" about="#werner" property="dc:contributor" data-type="functional">Klaus E. Werner</span>,</li>
+						<li>
+						<span resource="#AKG" about="#adamou" property="dc:contributor" data-type="functional">Alessandro Adamou</span>,</li>
+						<li>
+						<span resource="#AKG" about="#roell"  property="dc:contributor" data-type="functional">Johannes Röll</span>, and</li>
+						<li>
+						<span resource="#AKG" about="#bartsch"  property="dc:contributor" data-type="functional">Tatjana Bartsch</span>.</li>
+					</ul>
 					</p>
-						<h1>Thanks for listening, reading, or even just scrolling down!</h1>
+						<p>Thanks for listening, reading, or even just scrolling down.</p>
 					</div>
 				</div>
 			</div>
