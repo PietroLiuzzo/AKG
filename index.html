@@ -52,6 +52,77 @@
         width: 100%;
         height: 368px;
       }
+
+	  /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
 </style>
 <style>
 
@@ -2472,7 +2543,7 @@ Because I believe these two references are inverted looking at their images, I h
 
 				<p>It seems plausible to say that, smaller, more focused
 					models have a better chance at consistency, readibility and at the end of the day results.
-				From the same data one could show all depicted sides of the object.
+				From the same data one could show all depicted sides of the object at the different identifiable stages of their transformation.
 
 				<!-- add graph
 				stage 1
@@ -2487,6 +2558,61 @@ Because I believe these two references are inverted looking at their images, I h
 				</div>
 			</div>
 			</div>
+
+			<div class="slideView w3-display-container" id="stage3rec" style="width:100%">
+
+
+					<figure>
+						<img id="myImg3"  data-src="stage3.png" src="stage3.png"  style="max-width:100%;" class="lazyload" ></img>
+						<div id="myModal3" class="modal">
+
+							<!-- The Close Button -->
+							<span  id="span3"  class="close">&times;</span>
+
+							<!-- Modal Content (The Image) -->
+							<img class="modal-content lazyload" id="img03">
+
+						  </div>
+
+					</figure>
+			</div>
+
+			<div class="slideView w3-display-container" id="stage2rec" style="width:100%">
+
+
+					<figure>
+						<img id="myImg2"  data-src="stage2.png" src="stage2.png"  style="max-width:100%;" class="lazyload" ></img>
+						<div id="myModal2" class="modal">
+
+							<!-- The Close Button -->
+							<span id="span2" class="close">&times;</span>
+
+							<!-- Modal Content (The Image) -->
+							<img class="modal-content lazyload" id="img02">
+
+						  </div>
+
+					</figure>
+			</div>
+
+			<div class="slideView w3-display-container" id="stage1rec" style="width:100%">
+
+
+					<figure>
+						<img id="myImg1" data-src="stage1.png" src="stage1.png"  style="max-width:100%;" class="lazyload" ></img>
+						<div id="myModal1" class="modal">
+
+							<!-- The Close Button -->
+							<span id="span1" class="close">&times;</span>
+
+							<!-- Modal Content (The Image) -->
+							<img class="modal-content lazyload" id="img01">
+
+						  </div>
+
+					</figure>
+			</div>
+
 
 
 				<div class="slideView w3-display-container  w3-margin w3-padding" id="networks4" style="width:100%">
@@ -2653,13 +2779,66 @@ function showDivs(n) {
 
 
 <script>
-	document.querySelector('#showannotations').addEventListener('click', () => {
-		console.log('clicked show annotations!')
-  document.querySelectorAll('span:empty::after').classList.add('annotations');
-  document.querySelectorAll('[property*=":"]:not(:empty)').classList.add('textannotations');
-  document.querySelectorAll('[resource*="#"]:not(:empty)').classList.add('textannotations');
-  document.querySelectorAll('[about*="#"]:not(:empty)').classList.add('textannotations');
-});
+
+// Get the modal 1
+var modal1 = document.getElementById("myModal1");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img1 = document.getElementById("myImg1");
+var modalImg1 = document.getElementById("img01");
+img1.onclick = function(){
+  modal1.style.display = "block";
+  modalImg1.src = this.src;
+}
+
+// Get the modal 2
+var modal2 = document.getElementById("myModal2");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img2 = document.getElementById("myImg2");
+var modalImg2 = document.getElementById("img02");
+img2.onclick = function(){
+  modal2.style.display = "block";
+  modalImg2.src = this.src;
+}
+
+// Get the modal 3
+var modal3 = document.getElementById("myModal3");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img3 = document.getElementById("myImg3");
+var modalImg3 = document.getElementById("img03");
+img3.onclick = function(){
+  modal3.style.display = "block";
+  modalImg3.src = this.src;
+}
+
+// Get the <span> element that closes the modal
+var span3 = document.getElementById("span3");
+
+// When the user clicks on <span> (x), close the modal
+span3.onclick = function() {
+  modal3.style.display = "none";
+}
+
+// Get the <span> element that closes the modal
+	var span2 = document.getElementById("span2");
+
+// When the user clicks on <span> (x), close the modal
+span2.onclick = function() {
+  modal2.style.display = "none";
+}
+
+// Get the <span> element that closes the modal
+	var span1 = document.getElementById("span1");
+
+// When the user clicks on <span> (x), close the modal
+span1.onclick = function() {
+  modal1.style.display = "none";
+}
+
+
+
 </script>
 
 <script src="createtoc.js"></script>
