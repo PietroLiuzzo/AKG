@@ -18,12 +18,20 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<meta resource="#AKG" property="og:title" data-type="functional"
-			content="Photo Collection Data as Graph? Connecting with Databases of Inscriptions from Rome"/>
+			content="Linking epigraphic and photographic online resources with HTML+RDFa.
+			An exploration based on CIL VI 1375"/>
 		<meta resource="#AKG" property="dc:creator sch:creator" about="#pietro" data-type="functional"/>
+        <meta property="dc:creator sch:creator" content="Pietro Maria Liuzzo" data-type="functional">
+        <meta property="dc:language sch:inLanguage" content="en" data-type="functional">
+        <meta property="dc:rights" content="Copyright © Pietro Maria Liuzzo Creative Commons Attribution Share alike Non Commercial 4.0 License (cc-by-nc-sa)." data-type="functional">
+        <meta property="dc:publisher sch:publisher" content="Bibliotheca Hertziana. Max-Planck Institute for Art History" data-type="functional">
+        <meta property="dc:date sch:dateModified" content="8.11.2024" data-type="functional">
+		<meta property="dc:url sch:seeAlso" content="https://pietroliuzzo.github.io/AKG" data-type="functional">
 
 
-		<title>Photo Collection Data as Graph? Connecting with Databases of Inscriptions from
-			Rome / Collegare risorse epigrafiche e fotografiche con HTML+RDFa. Un esempio basato su
+
+		<title property="dcterms:title og:title sch:name" data-type="functional">Linking epigraphic and photographic online resources with HTML+RDFa.
+			An exploration based on CIL VI 1375 / Collegare risorse epigrafiche e fotografiche con HTML+RDFa. Un esempio basato su
 			CIL VI 1375</title>
 		<script src="lazysizes.min.js" async=""></script>
 		<script src="https://unpkg.com/vis-network@9.1.6/standalone/umd/vis-network.js"></script>
@@ -188,8 +196,13 @@ span:empty::after   {
 						In collaborazione con
 						Dipartimento di Studi Umanistici, Lettere, Beni Culturali, Scienze
 						della Formazione - via Arpi 176, Foggia</p>
-				    <p>Research supported within the cooperation of Università di Foggia with the Bibliotheca Hertziana Max-Planck-Institut for Art History, Rom.</p></div>
+				    <p>Research supported within the cooperation of Università di Foggia with the Bibliotheca Hertziana Max-Planck-Institut for Art History, Rom.</p>
+				<p><span class="w3-tag w3-light-grey"><a href="https://pietroliuzzo.github.io/AKG/">Github</a></span></p></div>
 </div>
+</div>
+
+<div class="slideView  w3-display-container" id="toc" style="width:100%">
+	<div></div>
 </div>
 
 <div class="slideView w3-display-container w3-margin w3-padding" id="introduction1" style="width:100%">
@@ -216,9 +229,7 @@ Drawings of inscriptions, <span resource="#AKG" property="sch:isAbout" about="#e
 			</div>
 		</div>
 
-		<div class="slideView  w3-display-container" id="toc" style="width:100%">
-			<div></div>
-		</div>
+
 
 
 
@@ -2545,37 +2556,31 @@ Because I believe these two references are inverted looking at their images, I h
 					models have a better chance at consistency, readibility and at the end of the day results.
 				From the same data one could show all depicted sides of the object at the different identifiable stages of their transformation.
 
-				<!-- add graph
-				stage 1
-				block drawing + images
-				stage 2
-				block drawings + inscriptions 1681 + images
-				stage 3
-				cut blocks in the capitolini with statues
-				-->
-
 				</p>
 				</div>
 			</div>
 			</div>
 
-			<div class="slideView w3-display-container" id="stage3rec" style="width:100%">
 
 
-					<figure>
-						<img id="myImg3"  data-src="stage3.png" src="stage3.png"  style="max-width:100%;" class="lazyload" ></img>
-						<div id="myModal3" class="modal">
 
-							<!-- The Close Button -->
-							<span  id="span3"  class="close">&times;</span>
+			<div class="slideView w3-display-container" id="stage1rec" style="width:100%">
 
-							<!-- Modal Content (The Image) -->
-							<img class="modal-content lazyload" id="img03">
 
-						  </div>
+				<figure>
+					<img id="myImg1" data-src="stage1.png" src="stage1.png"  style="max-width:100%;" class="lazyload" ></img>
+					<div id="myModal1" class="modal">
 
-					</figure>
-			</div>
+						<!-- The Close Button -->
+						<span id="span1" class="close">&times;</span>
+
+						<!-- Modal Content (The Image) -->
+						<img class="modal-content lazyload" id="img01">
+
+					  </div>
+
+				</figure>
+		</div>
 
 			<div class="slideView w3-display-container" id="stage2rec" style="width:100%">
 
@@ -2595,23 +2600,23 @@ Because I believe these two references are inverted looking at their images, I h
 					</figure>
 			</div>
 
-			<div class="slideView w3-display-container" id="stage1rec" style="width:100%">
+			<div class="slideView w3-display-container" id="stage3rec" style="width:100%">
 
 
-					<figure>
-						<img id="myImg1" data-src="stage1.png" src="stage1.png"  style="max-width:100%;" class="lazyload" ></img>
-						<div id="myModal1" class="modal">
+				<figure>
+					<img id="myImg3"  data-src="stage3.png" src="stage3.png"  style="max-width:100%;" class="lazyload" ></img>
+					<div id="myModal3" class="modal">
 
-							<!-- The Close Button -->
-							<span id="span1" class="close">&times;</span>
+						<!-- The Close Button -->
+						<span  id="span3"  class="close">&times;</span>
 
-							<!-- Modal Content (The Image) -->
-							<img class="modal-content lazyload" id="img01">
+						<!-- Modal Content (The Image) -->
+						<img class="modal-content lazyload" id="img03">
 
-						  </div>
+					  </div>
 
-					</figure>
-			</div>
+				</figure>
+		</div>
 
 
 
